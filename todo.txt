@@ -1,0 +1,13 @@
+>>>1. Implement TEnexCollection<T>.GetHashCode (also for associative)
+>>>1.1 Implement TEnexCollection<T>.Compare and use it for Equals
+>>>1.2 Do not provide equals for assoc collections.
+>>>1.3 Allow all types of collections for equals in enexcollection
+
+2. Check TString for surrogate madness!
+>>>> 3. TRawByteString type needs variant support too
+>>>>4. Add another overload to MaultiMap.TryGetValues that would return an empty coll
+
+5. Implement interface serialization.
+6. Add TValue operations to IType.
+7. Provide serialization based on labels. Instead of serializing a reference, include a label.
+same for deserialiaze.

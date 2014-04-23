@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="9r0b3k0at2n_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Arrays.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Arrays.@unitclass.GetCurrent()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Arrays.@unitclass.MoveNext()" />
+    </reference>
+  </view>
+</nodeSet>

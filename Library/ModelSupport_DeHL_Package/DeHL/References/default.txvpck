@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="bvzkksjbcum_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.References.Scoped&lt;1&gt;">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.References.Scoped&lt;1&gt;.FInstance" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.References.Scoped&lt;1&gt;.FGuard" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.References.Scoped&lt;1&gt;.GetIsValid()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.References.Scoped&lt;1&gt;.GetRef()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.References.Scoped&lt;1&gt;.Create()static" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.References.Scoped&lt;1&gt;.Destroy()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.References.Scoped&lt;1&gt;.Create(T)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.References.Scoped&lt;1&gt;.operator Implicit(T)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.References.Scoped&lt;1&gt;.operator Implicit(DeHL.References.Scoped&lt;1&gt;)" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.References.Scoped&lt;1&gt;.IsValid" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.References.Scoped&lt;1&gt;.Ref" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.References.Scoped&lt;1&gt;.IGuard" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.References.Scoped&lt;1&gt;.IHold" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.References.Scoped&lt;1&gt;.THold" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.References.Scoped&lt;1&gt;.TSharedGuard" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.References.Scoped&lt;1&gt;.TWeakGuard" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.References.Weak&lt;1&gt;">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.References.Weak&lt;1&gt;.FInstance" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.References.Weak&lt;1&gt;.FGuard" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.References.Weak&lt;1&gt;.GetIsValid()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.References.Weak&lt;1&gt;.GetUseCount()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.References.Weak&lt;1&gt;.Create()static" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.References.Weak&lt;1&gt;.Destroy()" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.References.Weak&lt;1&gt;.IsValid" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.References.Weak&lt;1&gt;.UseCount" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.References.Shared&lt;1&gt;">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.References.Shared&lt;1&gt;.FInstance" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.References.Shared&lt;1&gt;.FGuard" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.References.Shared&lt;1&gt;.GetIsValid()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.References.Shared&lt;1&gt;.GetRef()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.References.Shared&lt;1&gt;.GetUseCount()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.References.Shared&lt;1&gt;.Create()static" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.References.Shared&lt;1&gt;.Destroy()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.References.Shared&lt;1&gt;.Create(T)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.References.Shared&lt;1&gt;.Create(DeHL.References.Weak&lt;1&gt;)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.References.Shared&lt;1&gt;.operator Implicit(T)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.References.Shared&lt;1&gt;.operator Implicit(DeHL.References.Shared&lt;1&gt;)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.References.Shared&lt;1&gt;.operator Implicit(DeHL.References.Weak&lt;1&gt;)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.References.Shared&lt;1&gt;.ToWeak()" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.References.Shared&lt;1&gt;.IsValid" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.References.Shared&lt;1&gt;.UseCount" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.References.Shared&lt;1&gt;.Ref" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.References.Reference">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.References.Reference.Shared&lt;1&gt;(T)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.References.Reference.Scoped&lt;1&gt;(T)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.References.Reference.GetScopedType&lt;1&gt;()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.References.Reference.GetScopedType&lt;1&gt;(DeHL.Types.IType&lt;1&gt;)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.References.Reference.GetWeakType&lt;1&gt;()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.References.Reference.GetWeakType&lt;1&gt;(DeHL.Types.IType&lt;1&gt;)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.References.Reference.GetSharedType&lt;1&gt;()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.References.Reference.GetSharedType&lt;1&gt;(DeHL.Types.IType&lt;1&gt;)" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.References.Reference.TScopedType&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.References.Reference.TWeakType&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.References.Reference.TSharedType&lt;1&gt;" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.References.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+  </view>
+</nodeSet>

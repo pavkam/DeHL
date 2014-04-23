@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="e5gfgrp6w0tjg6jdh_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Singleton.Singleton&lt;1&gt;">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Singleton.Singleton&lt;1&gt;.FObject" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Singleton.Singleton&lt;1&gt;.Create()static" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Singleton.Singleton&lt;1&gt;.Instance" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Singleton.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Singleton.@unitclass.__DeHL__Singleton" />
+    </reference>
+  </view>
+</nodeSet>

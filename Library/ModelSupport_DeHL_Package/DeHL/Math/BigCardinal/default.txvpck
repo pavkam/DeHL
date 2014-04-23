@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="d11j4k534xl_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:l_ast:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.Ten" />
+      <reference referencedUin="delphi:l_ast:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.One" />
+      <reference referencedUin="delphi:l_ast:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.Zero" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.BytesInPiece" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.BitsInPiece" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.BCDDigitBits" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.BCDMask" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.FVarType" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.FOne_Array" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.FTen_Array" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.Create()static" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.Destroy()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.GetOne()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.GetTen()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.GetZero()" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.FLength" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.FArray" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.SetLength(System.NativeUInt)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.RemoveLeadingZeroes()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.GetShiftedPiece(DeHL.Math.BigCardinal.BigCardinal,System.NativeUInt,System.NativeUInt)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.CalcModulus(DeHL.Math.BigCardinal.BigCardinal,ref@DeHL.Math.BigCardinal.BigCardinal)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.CopyPieces(ref@,System.NativeUInt)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.SetPieces(,System.NativeUInt)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.GetBCDDigitFrom(System.NativeUInt,System.NativeUInt)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.SetBCDDigitFrom(System.NativeUInt,System.NativeUInt,System.NativeUInt)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.BitLength()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.ToBCD()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.GetIsEven()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.GetIsOdd()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.GetIsZero()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.Create(System.UInt64)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.Create(System.Int64)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.Create(System.Cardinal)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.Create(System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.Create(DeHL.Math.BigCardinal.BigCardinal)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.CompareTo(DeHL.Math.BigCardinal.BigCardinal)" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.IsZero" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.IsOdd" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.IsEven" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.DivideAndRemainder(DeHL.Math.BigCardinal.BigCardinal,out@DeHL.Math.BigCardinal.BigCardinal)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.Pow(System.NativeUInt)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.TryParse(System.string,out@DeHL.Math.BigCardinal.BigCardinal)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.TryParseHex(System.string,out@DeHL.Math.BigCardinal.BigCardinal)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.Parse(System.string)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.ParseHex(System.string)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.ToString()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.ToHexString()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.ToByte()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.ToWord()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.ToCardinal()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.ToUInt64()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.ToShortInt()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.ToSmallInt()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.ToInteger()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.ToInt64()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.ToAnsiChar()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.ToWideChar()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.operator Equal(DeHL.Math.BigCardinal.BigCardinal,DeHL.Math.BigCardinal.BigCardinal)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.operator NotEqual(DeHL.Math.BigCardinal.BigCardinal,DeHL.Math.BigCardinal.BigCardinal)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.operator GreaterThan(DeHL.Math.BigCardinal.BigCardinal,DeHL.Math.BigCardinal.BigCardinal)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.operator GreaterThanOrEqual(DeHL.Math.BigCardinal.BigCardinal,DeHL.Math.BigCardinal.BigCardinal)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.operator LessThan(DeHL.Math.BigCardinal.BigCardinal,DeHL.Math.BigCardinal.BigCardinal)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.operator LessThanOrEqual(DeHL.Math.BigCardinal.BigCardinal,DeHL.Math.BigCardinal.BigCardinal)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.operator Add(DeHL.Math.BigCardinal.BigCardinal,DeHL.Math.BigCardinal.BigCardinal)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.operator Subtract(DeHL.Math.BigCardinal.BigCardinal,DeHL.Math.BigCardinal.BigCardinal)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.operator Multiply(DeHL.Math.BigCardinal.BigCardinal,DeHL.Math.BigCardinal.BigCardinal)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.operator IntDivide(DeHL.Math.BigCardinal.BigCardinal,DeHL.Math.BigCardinal.BigCardinal)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.operator Modulus(DeHL.Math.BigCardinal.BigCardinal,DeHL.Math.BigCardinal.BigCardinal)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.operator Negative(DeHL.Math.BigCardinal.BigCardinal)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.operator Positive(DeHL.Math.BigCardinal.BigCardinal)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.operator Inc(DeHL.Math.BigCardinal.BigCardinal)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.operator Dec(DeHL.Math.BigCardinal.BigCardinal)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.operator LeftShift(DeHL.Math.BigCardinal.BigCardinal,System.NativeUInt)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.operator RightShift(DeHL.Math.BigCardinal.BigCardinal,System.NativeUInt)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.operator BitwiseAnd(DeHL.Math.BigCardinal.BigCardinal,DeHL.Math.BigCardinal.BigCardinal)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.operator LogicalNot(DeHL.Math.BigCardinal.BigCardinal)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.operator BitwiseOr(DeHL.Math.BigCardinal.BigCardinal,DeHL.Math.BigCardinal.BigCardinal)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.operator BitwiseXor(DeHL.Math.BigCardinal.BigCardinal,DeHL.Math.BigCardinal.BigCardinal)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.operator Implicit(System.Byte)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.operator Implicit(System.Word)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.operator Implicit(System.Cardinal)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.operator Implicit(System.UInt64)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.operator Implicit(DeHL.Math.BigCardinal.BigCardinal)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.operator Explicit(DeHL.Math.BigCardinal.BigCardinal)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.operator Explicit(System.Variant)" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.VarType" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.GetType()" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.Zero" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.One" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal.Ten" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.BigCardinal.TBigCardinalType">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.TBigCardinalType.DoSerialize(DeHL.Serialization.TValueInfo,DeHL.Math.BigCardinal.BigCardinal,DeHL.Serialization.ISerializationContext)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.TBigCardinalType.DoDeserialize(DeHL.Serialization.TValueInfo,out@DeHL.Math.BigCardinal.BigCardinal,DeHL.Serialization.IDeserializationContext)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.TBigCardinalType.Compare(DeHL.Math.BigCardinal.BigCardinal,DeHL.Math.BigCardinal.BigCardinal)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.TBigCardinalType.GenerateHashCode(DeHL.Math.BigCardinal.BigCardinal)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.TBigCardinalType.GetString(DeHL.Math.BigCardinal.BigCardinal)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.TBigCardinalType.Family()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.TBigCardinalType.TryConvertToVariant(DeHL.Math.BigCardinal.BigCardinal,out@System.Variant)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.TBigCardinalType.TryConvertFromVariant(System.Variant,out@DeHL.Math.BigCardinal.BigCardinal)" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.BigCardinal.TBigCardinalMathExtension">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.TBigCardinalMathExtension.Add(DeHL.Math.BigCardinal.BigCardinal,DeHL.Math.BigCardinal.BigCardinal)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.TBigCardinalMathExtension.Subtract(DeHL.Math.BigCardinal.BigCardinal,DeHL.Math.BigCardinal.BigCardinal)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.TBigCardinalMathExtension.Multiply(DeHL.Math.BigCardinal.BigCardinal,DeHL.Math.BigCardinal.BigCardinal)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.TBigCardinalMathExtension.IntegralDivide(DeHL.Math.BigCardinal.BigCardinal,DeHL.Math.BigCardinal.BigCardinal)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.TBigCardinalMathExtension.Modulo(DeHL.Math.BigCardinal.BigCardinal,DeHL.Math.BigCardinal.BigCardinal)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.TBigCardinalMathExtension.Zero()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.TBigCardinalMathExtension.One()" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.BigCardinal.TBigCardinalVarData">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:l_ast:src:DeHL_Package:DeHL.Math.BigCardinal.TBigCardinalVarData.BigCardinalPtr" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Math.BigCardinal.TBigCardinalVarData.VType" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Math.BigCardinal.TBigCardinalVarData.Reserved1" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Math.BigCardinal.TBigCardinalVarData.Reserved2" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Math.BigCardinal.TBigCardinalVarData.Reserved3" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Math.BigCardinal.TBigCardinalVarData.BigCardinalPtr" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Math.BigCardinal.TBigCardinalVarData.Reserved4" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.BigCardinal.TBigCardinalVariantType">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.TBigCardinalVariantType.VarDataToBigCardinal(System.TVarData)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.TBigCardinalVariantType.BigCardinalToVarData(DeHL.Math.BigCardinal.BigCardinal,ref@System.TVarData)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.TBigCardinalVariantType.Clear(ref@System.TVarData)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.TBigCardinalVariantType.Copy(ref@System.TVarData,System.TVarData,System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.TBigCardinalVariantType.Cast(ref@System.TVarData,System.TVarData)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.TBigCardinalVariantType.CastTo(ref@System.TVarData,System.TVarData,System.Word)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.TBigCardinalVariantType.BinaryOp(ref@System.TVarData,System.TVarData,System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.TBigCardinalVariantType.UnaryOp(ref@System.TVarData,System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.TBigCardinalVariantType.Compare(System.TVarData,System.TVarData,ref@Variants.TVarCompareResult)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.TBigCardinalVariantType.IsClear(System.TVarData)" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.BigCardinal.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:l_ast:src:DeHL_Package:DeHL.Math.BigCardinal.@unitclass.SgtBigCardinalVariantType" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.@unitclass.Fill4BitDigits(ref@System.string,DeHL.Math.BigCardinal.BigCardinal)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigCardinal.@unitclass.TrimLeftZeros(System.string)" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Math.BigCardinal.@unitclass.SgtBigCardinalVariantType" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.BigCardinal.PBigCardinal">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+  </view>
+</nodeSet>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="bwrf7pfwjse_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.Half.Half">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:l_ast:src:DeHL_Package:DeHL.Math.Half.Half.MinusTen" />
+      <reference referencedUin="delphi:l_ast:src:DeHL_Package:DeHL.Math.Half.Half.Ten" />
+      <reference referencedUin="delphi:l_ast:src:DeHL_Package:DeHL.Math.Half.Half.MinusOne" />
+      <reference referencedUin="delphi:l_ast:src:DeHL_Package:DeHL.Math.Half.Half.One" />
+      <reference referencedUin="delphi:l_ast:src:DeHL_Package:DeHL.Math.Half.Half.MinusZero" />
+      <reference referencedUin="delphi:l_ast:src:DeHL_Package:DeHL.Math.Half.Half.Zero" />
+      <reference referencedUin="delphi:l_ast:src:DeHL_Package:DeHL.Math.Half.Half.MinusInfinity" />
+      <reference referencedUin="delphi:l_ast:src:DeHL_Package:DeHL.Math.Half.Half.Infinity" />
+      <reference referencedUin="delphi:l_ast:src:DeHL_Package:DeHL.Math.Half.Half.Max" />
+      <reference referencedUin="delphi:l_ast:src:DeHL_Package:DeHL.Math.Half.Half.Min" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Math.Half.Half.CMax" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Math.Half.Half.CMin" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Math.Half.Half.CInfinity" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Math.Half.Half.CMinusInfinity" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Math.Half.Half.CZero" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Math.Half.Half.CMinusZero" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Math.Half.Half.COne" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Math.Half.Half.CMinusOne" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Math.Half.Half.CTen" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Math.Half.Half.CMinusTen" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.Half.GetInfinity()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.Half.GetMax()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.Half.GetMin()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.Half.GetMinusInfinity()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.Half.GetMinusZero()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.Half.GetZero()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.Half.GetMinusOne()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.Half.GetMinusTen()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.Half.GetOne()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.Half.GetTen()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.Half.Create()static" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.Half.Destroy()" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Math.Half.Half.FWord" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.Half.operator Implicit(System.Single)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.Half.operator Implicit(DeHL.Math.Half.Half)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.Half.operator Implicit(System.Variant)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.Half.operator Add(DeHL.Math.Half.Half,DeHL.Math.Half.Half)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.Half.operator Add(DeHL.Math.Half.Half,System.Single)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.Half.operator Add(System.Single,DeHL.Math.Half.Half)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.Half.operator Subtract(DeHL.Math.Half.Half,DeHL.Math.Half.Half)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.Half.operator Subtract(DeHL.Math.Half.Half,System.Single)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.Half.operator Subtract(System.Single,DeHL.Math.Half.Half)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.Half.operator Multiply(DeHL.Math.Half.Half,DeHL.Math.Half.Half)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.Half.operator Multiply(DeHL.Math.Half.Half,System.Single)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.Half.operator Multiply(System.Single,DeHL.Math.Half.Half)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.Half.operator Divide(DeHL.Math.Half.Half,DeHL.Math.Half.Half)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.Half.operator Divide(DeHL.Math.Half.Half,System.Single)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.Half.operator Divide(System.Single,DeHL.Math.Half.Half)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.Half.operator Positive(DeHL.Math.Half.Half)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.Half.operator Negative(DeHL.Math.Half.Half)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.Half.operator Equal(DeHL.Math.Half.Half,DeHL.Math.Half.Half)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.Half.operator Equal(DeHL.Math.Half.Half,System.Single)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.Half.operator Equal(System.Single,DeHL.Math.Half.Half)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.Half.operator NotEqual(DeHL.Math.Half.Half,DeHL.Math.Half.Half)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.Half.operator NotEqual(DeHL.Math.Half.Half,System.Single)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.Half.operator NotEqual(System.Single,DeHL.Math.Half.Half)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.Half.operator GreaterThan(DeHL.Math.Half.Half,DeHL.Math.Half.Half)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.Half.operator GreaterThan(DeHL.Math.Half.Half,System.Single)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.Half.operator GreaterThan(System.Single,DeHL.Math.Half.Half)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.Half.operator GreaterThanOrEqual(DeHL.Math.Half.Half,DeHL.Math.Half.Half)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.Half.operator GreaterThanOrEqual(DeHL.Math.Half.Half,System.Single)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.Half.operator GreaterThanOrEqual(System.Single,DeHL.Math.Half.Half)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.Half.operator LessThan(DeHL.Math.Half.Half,DeHL.Math.Half.Half)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.Half.operator LessThan(DeHL.Math.Half.Half,System.Single)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.Half.operator LessThan(System.Single,DeHL.Math.Half.Half)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.Half.operator LessThanOrEqual(DeHL.Math.Half.Half,DeHL.Math.Half.Half)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.Half.operator LessThanOrEqual(DeHL.Math.Half.Half,System.Single)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.Half.operator LessThanOrEqual(System.Single,DeHL.Math.Half.Half)" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Math.Half.Half.Min" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Math.Half.Half.Max" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Math.Half.Half.Infinity" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Math.Half.Half.MinusInfinity" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Math.Half.Half.Zero" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Math.Half.Half.MinusZero" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Math.Half.Half.One" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Math.Half.Half.MinusOne" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Math.Half.Half.Ten" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Math.Half.Half.MinusTen" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.Half.GetType()" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.Half.THalfType">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.THalfType.DoSerialize(DeHL.Serialization.TValueInfo,DeHL.Math.Half.Half,DeHL.Serialization.ISerializationContext)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.THalfType.DoDeserialize(DeHL.Serialization.TValueInfo,out@DeHL.Math.Half.Half,DeHL.Serialization.IDeserializationContext)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.THalfType.Compare(DeHL.Math.Half.Half,DeHL.Math.Half.Half)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.THalfType.GenerateHashCode(DeHL.Math.Half.Half)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.THalfType.GetString(DeHL.Math.Half.Half)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.THalfType.Family()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.THalfType.TryConvertToVariant(DeHL.Math.Half.Half,out@System.Variant)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.THalfType.TryConvertFromVariant(System.Variant,out@DeHL.Math.Half.Half)" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.Half.THalfMathExtension">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.THalfMathExtension.Add(DeHL.Math.Half.Half,DeHL.Math.Half.Half)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.THalfMathExtension.Subtract(DeHL.Math.Half.Half,DeHL.Math.Half.Half)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.THalfMathExtension.Multiply(DeHL.Math.Half.Half,DeHL.Math.Half.Half)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.THalfMathExtension.Divide(DeHL.Math.Half.Half,DeHL.Math.Half.Half)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.THalfMathExtension.Negate(DeHL.Math.Half.Half)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.THalfMathExtension.Abs(DeHL.Math.Half.Half)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.THalfMathExtension.Zero()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.THalfMathExtension.One()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Half.THalfMathExtension.MinusOne()" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.Half.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Math.Half.@unitclass.MaxHalf" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Math.Half.@unitclass.MinHalf" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Math.Half.@unitclass.CMantissas" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Math.Half.@unitclass.CExponents" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Math.Half.@unitclass.COffsets" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Math.Half.@unitclass.CBases" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Math.Half.@unitclass.CShifts" />
+    </reference>
+  </view>
+</nodeSet>

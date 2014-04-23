@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="8p6an15a3wp_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Serialization.Ini.IniName">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Ini.IniName.FName" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Ini.IniName.Create(System.string)" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Serialization.Ini.TIniSerializer&lt;1&gt;">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Ini.TIniSerializer&lt;1&gt;.FPathSeparator" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Ini.TIniSerializer&lt;1&gt;.FClassIdentifierValueName" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Ini.TIniSerializer&lt;1&gt;.FReferenceIdValueName" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Ini.TIniSerializer&lt;1&gt;.FArrayLengthValueName" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Ini.TIniSerializer&lt;1&gt;.FEncodeValues" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Ini.TIniSerializer&lt;1&gt;.CreateContext()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Ini.TIniSerializer&lt;1&gt;.PrepareForSerialization(IniFiles.TCustomIniFile)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Ini.TIniSerializer&lt;1&gt;.PrepareForDeserialization(IniFiles.TCustomIniFile)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Ini.TIniSerializer&lt;1&gt;.AfterConstruction()" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Serialization.Ini.TIniSerializer&lt;1&gt;.SectionPathSeparator" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Serialization.Ini.TIniSerializer&lt;1&gt;.ClassIdentifierValueName" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Serialization.Ini.TIniSerializer&lt;1&gt;.ReferenceIdValueName" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Serialization.Ini.TIniSerializer&lt;1&gt;.ArrayLengthValueName" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Serialization.Ini.TIniSerializer&lt;1&gt;.EncodeValues" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Serialization.Ini.TIniSerializer&lt;1&gt;.TIniSerializationContext" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Serialization.Ini.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+  </view>
+</nodeSet>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="ym9ckuyfhgs_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.PriorityQueue.TPriorityQueue&lt;2&gt;">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Collections.PriorityQueue.TPriorityQueue&lt;2&gt;.FCount" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Collections.PriorityQueue.TPriorityQueue&lt;2&gt;.FVer" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Collections.PriorityQueue.TPriorityQueue&lt;2&gt;.FSign" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Collections.PriorityQueue.TPriorityQueue&lt;2&gt;.FArray" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.PriorityQueue.TPriorityQueue&lt;2&gt;.RemoveAt(System.NativeUInt)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.PriorityQueue.TPriorityQueue&lt;2&gt;.StartSerializing(DeHL.Serialization.TSerializationData)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.PriorityQueue.TPriorityQueue&lt;2&gt;.StartDeserializing(DeHL.Serialization.TDeserializationData)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.PriorityQueue.TPriorityQueue&lt;2&gt;.DeserializePair(TPriority,TValue)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.PriorityQueue.TPriorityQueue&lt;2&gt;.GetCount()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.PriorityQueue.TPriorityQueue&lt;2&gt;.GetCapacity()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.PriorityQueue.TPriorityQueue&lt;2&gt;.Create(System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.PriorityQueue.TPriorityQueue&lt;2&gt;.Create(System.NativeUInt,System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.PriorityQueue.TPriorityQueue&lt;2&gt;.Create(DeHL.Base.IEnumerable`1,System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.PriorityQueue.TPriorityQueue&lt;2&gt;.Create(DeHL.Tuples.KVPair&lt;TPriority,TValue&gt;[],System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.PriorityQueue.TPriorityQueue&lt;2&gt;.Create(DeHL.Arrays.TDynamicArray`1,System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.PriorityQueue.TPriorityQueue&lt;2&gt;.Create(DeHL.Arrays.TFixedArray`1,System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.PriorityQueue.TPriorityQueue&lt;2&gt;.Create(DeHL.Types.IType&lt;TPriority&gt;,DeHL.Types.IType&lt;TValue&gt;,System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.PriorityQueue.TPriorityQueue&lt;2&gt;.Create(DeHL.Types.IType&lt;TPriority&gt;,DeHL.Types.IType&lt;TValue&gt;,System.NativeUInt,System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.PriorityQueue.TPriorityQueue&lt;2&gt;.Create(DeHL.Types.IType&lt;TPriority&gt;,DeHL.Types.IType&lt;TValue&gt;,DeHL.Base.IEnumerable`1,System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.PriorityQueue.TPriorityQueue&lt;2&gt;.Create(DeHL.Types.IType&lt;TPriority&gt;,DeHL.Types.IType&lt;TValue&gt;,DeHL.Tuples.KVPair&lt;TPriority,TValue&gt;[],System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.PriorityQueue.TPriorityQueue&lt;2&gt;.Create(DeHL.Types.IType&lt;TPriority&gt;,DeHL.Types.IType&lt;TValue&gt;,DeHL.Arrays.TDynamicArray`1,System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.PriorityQueue.TPriorityQueue&lt;2&gt;.Create(DeHL.Types.IType&lt;TPriority&gt;,DeHL.Types.IType&lt;TValue&gt;,DeHL.Arrays.TFixedArray`1,System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.PriorityQueue.TPriorityQueue&lt;2&gt;.Destroy()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.PriorityQueue.TPriorityQueue&lt;2&gt;.Clear()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.PriorityQueue.TPriorityQueue&lt;2&gt;.Contains(TValue)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.PriorityQueue.TPriorityQueue&lt;2&gt;.Enqueue(TValue)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.PriorityQueue.TPriorityQueue&lt;2&gt;.Enqueue(TValue,TPriority)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.PriorityQueue.TPriorityQueue&lt;2&gt;.Dequeue()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.PriorityQueue.TPriorityQueue&lt;2&gt;.Peek()" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Collections.PriorityQueue.TPriorityQueue&lt;2&gt;.Count" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Collections.PriorityQueue.TPriorityQueue&lt;2&gt;.Capacity" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.PriorityQueue.TPriorityQueue&lt;2&gt;.GetEnumerator()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.PriorityQueue.TPriorityQueue&lt;2&gt;.Shrink()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.PriorityQueue.TPriorityQueue&lt;2&gt;.Grow()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.PriorityQueue.TPriorityQueue&lt;2&gt;.CopyTo(ref@DeHL.Tuples.KVPair&lt;TPriority,TValue&gt;[])" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.PriorityQueue.TPriorityQueue&lt;2&gt;.CopyTo(ref@DeHL.Tuples.KVPair&lt;TPriority,TValue&gt;[],System.NativeUInt)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.PriorityQueue.TPriorityQueue&lt;2&gt;.MaxKey()" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.PriorityQueue.TPriorityQueue&lt;2&gt;.TPriorityPair" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.PriorityQueue.TPriorityQueue&lt;2&gt;.TPairEnumerator" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.PriorityQueue.TObjectPriorityQueue&lt;2&gt;">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:l_gnt:src:DeHL_Package:DeHL.Collections.PriorityQueue.TObjectPriorityQueue&lt;2&gt;:DeHL.Collections.PriorityQueue.TPriorityQueue&lt;2&gt;" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Collections.PriorityQueue.TObjectPriorityQueue&lt;2&gt;.FPriorityWrapperType" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Collections.PriorityQueue.TObjectPriorityQueue&lt;2&gt;.FValueWrapperType" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.PriorityQueue.TObjectPriorityQueue&lt;2&gt;.GetOwnsPriorities()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.PriorityQueue.TObjectPriorityQueue&lt;2&gt;.SetOwnsPriorities(System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.PriorityQueue.TObjectPriorityQueue&lt;2&gt;.GetOwnsValues()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.PriorityQueue.TObjectPriorityQueue&lt;2&gt;.SetOwnsValues(System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.PriorityQueue.TObjectPriorityQueue&lt;2&gt;.InstallTypes(DeHL.Types.TType`1.IType`1,DeHL.Types.TType`1.IType`1)" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Collections.PriorityQueue.TObjectPriorityQueue&lt;2&gt;.OwnsPriorities" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Collections.PriorityQueue.TObjectPriorityQueue&lt;2&gt;.OwnsValues" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.PriorityQueue.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Collections.PriorityQueue.@unitclass.DefaultArrayLength" />
+    </reference>
+  </view>
+</nodeSet>

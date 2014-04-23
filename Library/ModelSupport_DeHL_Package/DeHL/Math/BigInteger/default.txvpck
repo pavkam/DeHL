@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="z29evcoi5ik_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:l_ast:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.Zero" />
+      <reference referencedUin="delphi:l_ast:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.MinusTen" />
+      <reference referencedUin="delphi:l_ast:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.Ten" />
+      <reference referencedUin="delphi:l_ast:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.MinusOne" />
+      <reference referencedUin="delphi:l_ast:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.One" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.FVarType" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.FCached_Numbers" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.Create()static" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.Destroy()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.GetMinusOne()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.GetMinusTen()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.GetOne()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.GetTen()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.GetZero()" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.FData" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.GetData()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.GetIsNegative()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.GetIsPositive()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.GetIsZero()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.GetIsEven()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.GetIsOdd()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.GetSign()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.Create(System.UInt64)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.Create(System.Int64)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.Create(System.Cardinal)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.Create(System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.Create(DeHL.Math.BigInteger.BigInteger)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.Create(DeHL.Math.BigCardinal.BigCardinal)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.CompareTo(DeHL.Math.BigInteger.BigInteger)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.ToShortInt()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.ToSmallInt()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.ToInteger()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.ToInt64()" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.IsZero" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.IsNegative" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.IsPositive" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.IsOdd" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.IsEven" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.Sign" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.DivideAndRemainder(DeHL.Math.BigInteger.BigInteger,out@DeHL.Math.BigInteger.BigInteger)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.Abs()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.Pow(System.NativeUInt)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.TryParse(System.string,out@DeHL.Math.BigInteger.BigInteger)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.Parse(System.string)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.ToString()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.operator Equal(DeHL.Math.BigInteger.BigInteger,DeHL.Math.BigInteger.BigInteger)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.operator NotEqual(DeHL.Math.BigInteger.BigInteger,DeHL.Math.BigInteger.BigInteger)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.operator GreaterThan(DeHL.Math.BigInteger.BigInteger,DeHL.Math.BigInteger.BigInteger)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.operator GreaterThanOrEqual(DeHL.Math.BigInteger.BigInteger,DeHL.Math.BigInteger.BigInteger)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.operator LessThan(DeHL.Math.BigInteger.BigInteger,DeHL.Math.BigInteger.BigInteger)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.operator LessThanOrEqual(DeHL.Math.BigInteger.BigInteger,DeHL.Math.BigInteger.BigInteger)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.operator Add(DeHL.Math.BigInteger.BigInteger,DeHL.Math.BigInteger.BigInteger)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.operator Subtract(DeHL.Math.BigInteger.BigInteger,DeHL.Math.BigInteger.BigInteger)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.operator Multiply(DeHL.Math.BigInteger.BigInteger,DeHL.Math.BigInteger.BigInteger)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.operator IntDivide(DeHL.Math.BigInteger.BigInteger,DeHL.Math.BigInteger.BigInteger)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.operator Modulus(DeHL.Math.BigInteger.BigInteger,DeHL.Math.BigInteger.BigInteger)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.operator Negative(DeHL.Math.BigInteger.BigInteger)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.operator Positive(DeHL.Math.BigInteger.BigInteger)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.operator LeftShift(DeHL.Math.BigInteger.BigInteger,System.NativeUInt)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.operator RightShift(DeHL.Math.BigInteger.BigInteger,System.NativeUInt)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.operator Inc(DeHL.Math.BigInteger.BigInteger)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.operator Dec(DeHL.Math.BigInteger.BigInteger)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.operator Implicit(System.Byte)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.operator Implicit(System.Word)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.operator Implicit(System.Cardinal)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.operator Implicit(System.UInt64)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.operator Implicit(System.Smallint)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.operator Implicit(System.Shortint)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.operator Implicit(System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.operator Implicit(System.Int64)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.operator Implicit(DeHL.Math.BigCardinal.BigCardinal)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.operator Implicit(DeHL.Math.BigInteger.BigInteger)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.operator Explicit(DeHL.Math.BigInteger.BigInteger)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.operator Explicit(System.Variant)" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.VarType" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.GetType()" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.Zero" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.One" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.MinusOne" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.Ten" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.MinusTen" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.IData" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger.TData" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.BigInteger.TBigIntegerType">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Math.BigInteger.TBigIntegerType.FBigCardinalType" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.TBigIntegerType.DoSerialize(DeHL.Serialization.TValueInfo,DeHL.Math.BigInteger.BigInteger,DeHL.Serialization.ISerializationContext)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.TBigIntegerType.DoDeserialize(DeHL.Serialization.TValueInfo,out@DeHL.Math.BigInteger.BigInteger,DeHL.Serialization.IDeserializationContext)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.TBigIntegerType.Create()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.TBigIntegerType.Compare(DeHL.Math.BigInteger.BigInteger,DeHL.Math.BigInteger.BigInteger)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.TBigIntegerType.GenerateHashCode(DeHL.Math.BigInteger.BigInteger)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.TBigIntegerType.GetString(DeHL.Math.BigInteger.BigInteger)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.TBigIntegerType.Family()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.TBigIntegerType.TryConvertToVariant(DeHL.Math.BigInteger.BigInteger,out@System.Variant)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.TBigIntegerType.TryConvertFromVariant(System.Variant,out@DeHL.Math.BigInteger.BigInteger)" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.BigInteger.TBigIntegerMathExtension">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.TBigIntegerMathExtension.Add(DeHL.Math.BigInteger.BigInteger,DeHL.Math.BigInteger.BigInteger)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.TBigIntegerMathExtension.Subtract(DeHL.Math.BigInteger.BigInteger,DeHL.Math.BigInteger.BigInteger)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.TBigIntegerMathExtension.Multiply(DeHL.Math.BigInteger.BigInteger,DeHL.Math.BigInteger.BigInteger)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.TBigIntegerMathExtension.IntegralDivide(DeHL.Math.BigInteger.BigInteger,DeHL.Math.BigInteger.BigInteger)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.TBigIntegerMathExtension.Modulo(DeHL.Math.BigInteger.BigInteger,DeHL.Math.BigInteger.BigInteger)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.TBigIntegerMathExtension.Negate(DeHL.Math.BigInteger.BigInteger)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.TBigIntegerMathExtension.Abs(DeHL.Math.BigInteger.BigInteger)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.TBigIntegerMathExtension.Zero()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.TBigIntegerMathExtension.One()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.TBigIntegerMathExtension.MinusOne()" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.BigInteger.TBigIntegerVarData">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Math.BigInteger.TBigIntegerVarData.VType" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Math.BigInteger.TBigIntegerVarData.Reserved1" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Math.BigInteger.TBigIntegerVarData.Reserved2" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Math.BigInteger.TBigIntegerVarData.Reserved3" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Math.BigInteger.TBigIntegerVarData.BigIntegerIntf" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Math.BigInteger.TBigIntegerVarData.Reserved4" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.BigInteger.TBigIntegerVariantType">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.TBigIntegerVariantType.VarDataToBigInteger(System.TVarData)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.TBigIntegerVariantType.BigIntegerToVarData(DeHL.Math.BigInteger.BigInteger,ref@System.TVarData)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.TBigIntegerVariantType.Clear(ref@System.TVarData)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.TBigIntegerVariantType.Copy(ref@System.TVarData,System.TVarData,System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.TBigIntegerVariantType.Cast(ref@System.TVarData,System.TVarData)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.TBigIntegerVariantType.CastTo(ref@System.TVarData,System.TVarData,System.Word)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.TBigIntegerVariantType.BinaryOp(ref@System.TVarData,System.TVarData,System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.TBigIntegerVariantType.UnaryOp(ref@System.TVarData,System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.TBigIntegerVariantType.Compare(System.TVarData,System.TVarData,ref@Variants.TVarCompareResult)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.BigInteger.TBigIntegerVariantType.IsClear(System.TVarData)" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.BigInteger.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:l_ast:src:DeHL_Package:DeHL.Math.BigInteger.@unitclass.SgtBigIntegerVariantType" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Math.BigInteger.@unitclass.SgtBigIntegerVariantType" />
+    </reference>
+  </view>
+</nodeSet>

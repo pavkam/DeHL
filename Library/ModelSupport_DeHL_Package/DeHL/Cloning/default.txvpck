@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="14cc90eepse_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Cloning.ICloneable">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Cloning.ICloneable.Clone()" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Cloning.TCloneKind">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Cloning.TCloneKind.ckSkip" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Cloning.TCloneKind.ckReference" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Cloning.TCloneKind.ckDeep" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Cloning.TCloneKind.ckFlat" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Cloning.CloneKind">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:l_ast:src:DeHL_Package:DeHL.Cloning.CloneKind.FCloneKind" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Cloning.CloneKind.FCloneKind" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Cloning.CloneKind.Create(DeHL.Cloning.TCloneKind)" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Cloning.TReplicator&lt;1&gt;">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:l_ast:src:DeHL_Package:DeHL.Cloning.TReplicator&lt;1&gt;.FOnCloneField" />
+      <reference referencedUin="delphi:l_ast:src:DeHL_Package:DeHL.Cloning.TReplicator&lt;1&gt;.OnCloneField" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Cloning.TReplicator&lt;1&gt;.FOnCloneField" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Cloning.TReplicator&lt;1&gt;.FContext" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Cloning.TReplicator&lt;1&gt;.FObjectMap" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Cloning.TReplicator&lt;1&gt;.FRecordMap" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Cloning.TReplicator&lt;1&gt;.FDynArrayMap" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Cloning.TReplicator&lt;1&gt;.FRootType" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Cloning.TReplicator&lt;1&gt;.InternalGetCloneable(System.TObject,ref@System.Pointer)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Cloning.TReplicator&lt;1&gt;.RegisterClassMapping(System.TObject,System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Cloning.TReplicator&lt;1&gt;.RegisterRecordMapping(System.Pointer,System.Pointer)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Cloning.TReplicator&lt;1&gt;.RegisterDynArrayMapping(System.Pointer,System.Pointer)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Cloning.TReplicator&lt;1&gt;.TryGetClassMapping(System.TObject,out@System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Cloning.TReplicator&lt;1&gt;.TryGetRecordMapping(System.Pointer,out@System.Pointer)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Cloning.TReplicator&lt;1&gt;.TryGetDynArrayMapping(System.Pointer,out@System.Byte[])" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Cloning.TReplicator&lt;1&gt;.DoReplicate(T,out@T,System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Cloning.TReplicator&lt;1&gt;.DoReplicate(System.Pointer,System.Pointer,Rtti.TRttiType,DeHL.Cloning.TCloneKind,System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Cloning.TReplicator&lt;1&gt;.DoReplicateFields(System.Pointer,System.Pointer,Rtti.TRttiType)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Cloning.TReplicator&lt;1&gt;.DoReplicateArray(System.Pointer,System.Pointer,System.NativeUInt,Rtti.TRttiType,System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Cloning.TReplicator&lt;1&gt;.Create()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Cloning.TReplicator&lt;1&gt;.Destroy()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Cloning.TReplicator&lt;1&gt;.Replicate(T,out@T)" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Cloning.TReplicator&lt;1&gt;.OnCloneField" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Cloning.TCloneableObject">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:l_ast:src:DeHL_Package:DeHL.Cloning.TCloneableObject.FReplicator" />
+      <reference referencedUin="delphi:l_impl:src:DeHL_Package:DeHL.Cloning.TCloneableObject:DeHL.Cloning.ICloneable" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Cloning.TCloneableObject.FReplicator" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Cloning.TCloneableObject.BeforeDestruction()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Cloning.TCloneableObject.Clone()" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Cloning.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Cloning.TOnCloneFieldEvent">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+  </view>
+</nodeSet>

@@ -1,0 +1,90 @@
+package DeHL_Package;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  xmlrtl;
+
+contains
+  DeHL.Base in 'src\DeHL.Base.pas',
+  DeHL.Types in 'src\DeHL.Types.pas',
+  DeHL.Exceptions in 'src\DeHL.Exceptions.pas',
+  DeHL.StrConsts in 'src\DeHL.StrConsts.pas',
+  DeHL.Arrays in 'src\Extensions\DeHL.Arrays.pas',
+  DeHL.Nullable in 'src\Extensions\DeHL.Nullable.pas',
+  DeHL.References in 'src\Extensions\DeHL.References.pas',
+  DeHL.Box in 'src\Extensions\DeHL.Box.pas',
+  DeHL.Singleton in 'src\Extensions\DeHL.Singleton.pas',
+  DeHL.Strings in 'src\Extensions\DeHL.Strings.pas',
+  DeHL.Bytes in 'src\Extensions\DeHL.Bytes.pas',
+  DeHL.Tuples in 'src\Extensions\DeHL.Tuples.pas',
+  DeHL.WideCharSet in 'src\Extensions\DeHL.WideCharSet.pas',
+  DeHL.Conversion in 'src\Extensions\DeHL.Conversion.pas',
+  DeHL.Serialization in 'src\Serialization\DeHL.Serialization.pas',
+  DeHL.Serialization.XML in 'src\Serialization\DeHL.Serialization.XML.pas',
+  DeHL.Serialization.Ini in 'src\Serialization\DeHL.Serialization.Ini.pas',
+  DeHL.Serialization.Abstract in 'src\Serialization\DeHL.Serialization.Abstract.pas',
+  DeHL.Serialization.Binary in 'src\Serialization\DeHL.Serialization.Binary.pas',
+  DeHL.Cloning in 'src\Extensions\DeHL.Cloning.pas',
+  DeHL.Math.BigCardinal in 'src\Math\DeHL.Math.BigCardinal.pas',
+  DeHL.Math.BigInteger in 'src\Math\DeHL.Math.BigInteger.pas',
+  DeHL.Math.BigDecimal in 'src\Math\DeHL.Math.BigDecimal.pas',
+  DeHL.Math.Half in 'src\Math\DeHL.Math.Half.pas',
+  DeHL.Math.Types in 'src\Math\DeHL.Math.Types.pas',
+  DeHL.Collections.LinkedList in 'src\Collections\DeHL.Collections.LinkedList.pas',
+  DeHL.Collections.Stack in 'src\Collections\DeHL.Collections.Stack.pas',
+  DeHL.Collections.Queue in 'src\Collections\DeHL.Collections.Queue.pas',
+  DeHL.Collections.List in 'src\Collections\DeHL.Collections.List.pas',
+  DeHL.Collections.Dictionary in 'src\Collections\DeHL.Collections.Dictionary.pas',
+  DeHL.Collections.ArraySet in 'src\Collections\DeHL.Collections.ArraySet.pas',
+  DeHL.Collections.HashSet in 'src\Collections\DeHL.Collections.HashSet.pas',
+  DeHL.Collections.MultiMap in 'src\Collections\DeHL.Collections.MultiMap.pas',
+  DeHL.Collections.SortedList in 'src\Collections\DeHL.Collections.SortedList.pas',
+  DeHL.Collections.Bag in 'src\Collections\DeHL.Collections.Bag.pas',
+  DeHL.Collections.LinkedStack in 'src\Collections\DeHL.Collections.LinkedStack.pas',
+  DeHL.Collections.LinkedQueue in 'src\Collections\DeHL.Collections.LinkedQueue.pas',
+  DeHL.Collections.SortedDictionary in 'src\Collections\DeHL.Collections.SortedDictionary.pas',
+  DeHL.Collections.SortedSet in 'src\Collections\DeHL.Collections.SortedSet.pas',
+  DeHL.Collections.SortedBag in 'src\Collections\DeHL.Collections.SortedBag.pas',
+  DeHL.Collections.SortedMultiMap in 'src\Collections\DeHL.Collections.SortedMultiMap.pas',
+  DeHL.Collections.DoubleSortedMultiMap in 'src\Collections\DeHL.Collections.DoubleSortedMultiMap.pas',
+  DeHL.Collections.Base in 'src\Collections\DeHL.Collections.Base.pas',
+  DeHL.Collections.Interop in 'src\Collections\DeHL.Collections.Interop.pas',
+  DeHL.Collections.Abstract in 'src\Collections\DeHL.Collections.Abstract.pas',
+  DeHL.Collections.DistinctMultiMap in 'src\Collections\DeHL.Collections.DistinctMultiMap.pas',
+  DeHL.Collections.SortedDistinctMultiMap in 'src\Collections\DeHL.Collections.SortedDistinctMultiMap.pas',
+  DeHL.Collections.DoubleSortedDistinctMultiMap in 'src\Collections\DeHL.Collections.DoubleSortedDistinctMultiMap.pas',
+  DeHL.Collections.PriorityQueue in 'src\Collections\DeHL.Collections.PriorityQueue.pas',
+  DeHL.Collections.BidiMap in 'src\Collections\DeHL.Collections.BidiMap.pas',
+  DeHL.Collections.SortedBidiMap in 'src\Collections\DeHL.Collections.SortedBidiMap.pas',
+  DeHL.Collections.DoubleSortedBidiMap in 'src\Collections\DeHL.Collections.DoubleSortedBidiMap.pas',
+  DeHL.Collections.Heap in 'src\Collections\DeHL.Collections.Heap.pas',
+  DeHL.DateTime in 'src\Extensions\DeHL.DateTime.pas',
+  DeHL.Math.Algorithms in 'src\Math\DeHL.Math.Algorithms.pas';
+
+end.
+
+

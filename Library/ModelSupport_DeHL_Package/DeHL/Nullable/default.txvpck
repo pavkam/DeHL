@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="ugttn65wryg_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Nullable.Nullable&lt;1&gt;">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Nullable.Nullable&lt;1&gt;.__Marker" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Nullable.Nullable&lt;1&gt;.Create()static" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Nullable.Nullable&lt;1&gt;.Destroy()" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Nullable.Nullable&lt;1&gt;.FMarker" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Nullable.Nullable&lt;1&gt;.FValue" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Nullable.Nullable&lt;1&gt;.GetIsNull()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Nullable.Nullable&lt;1&gt;.GetValue()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Nullable.Nullable&lt;1&gt;.SetValue(T)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Nullable.Nullable&lt;1&gt;.GetValueOrDefault()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Nullable.Nullable&lt;1&gt;.Create(T)" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Nullable.Nullable&lt;1&gt;.IsNull" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Nullable.Nullable&lt;1&gt;.Value" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Nullable.Nullable&lt;1&gt;.ValueOrDefault" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Nullable.Nullable&lt;1&gt;.MakeNull()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Nullable.Nullable&lt;1&gt;.operator Implicit(DeHL.Nullable.Nullable&lt;1&gt;)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Nullable.Nullable&lt;1&gt;.operator Implicit(T)" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Nullable.TNullableType&lt;1&gt;">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Nullable.TNullableType&lt;1&gt;.FType" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Nullable.TNullableType&lt;1&gt;.DoSerialize(DeHL.Serialization.TValueInfo,DeHL.Nullable.Nullable&lt;1&gt;,DeHL.Serialization.ISerializationContext)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Nullable.TNullableType&lt;1&gt;.DoDeserialize(DeHL.Serialization.TValueInfo,out@DeHL.Nullable.Nullable&lt;1&gt;,DeHL.Serialization.IDeserializationContext)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Nullable.TNullableType&lt;1&gt;.Create()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Nullable.TNullableType&lt;1&gt;.Create(DeHL.Types.IType&lt;1&gt;)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Nullable.TNullableType&lt;1&gt;.Compare(DeHL.Nullable.Nullable&lt;1&gt;,DeHL.Nullable.Nullable&lt;1&gt;)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Nullable.TNullableType&lt;1&gt;.GenerateHashCode(DeHL.Nullable.Nullable&lt;1&gt;)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Nullable.TNullableType&lt;1&gt;.Management()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Nullable.TNullableType&lt;1&gt;.Cleanup(ref@DeHL.Nullable.Nullable&lt;1&gt;)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Nullable.TNullableType&lt;1&gt;.GetString(DeHL.Nullable.Nullable&lt;1&gt;)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Nullable.TNullableType&lt;1&gt;.TryConvertToVariant(DeHL.Nullable.Nullable&lt;1&gt;,out@System.Variant)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Nullable.TNullableType&lt;1&gt;.TryConvertFromVariant(System.Variant,out@DeHL.Nullable.Nullable&lt;1&gt;)" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Nullable.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+  </view>
+</nodeSet>

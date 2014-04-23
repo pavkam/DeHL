@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="684b4v39aeh_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Heap.THeap&lt;1&gt;">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Collections.Heap.THeap&lt;1&gt;.FArray" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Collections.Heap.THeap&lt;1&gt;.FFirstFree" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Collections.Heap.THeap&lt;1&gt;.FCount" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Collections.Heap.THeap&lt;1&gt;.FVer" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Heap.THeap&lt;1&gt;.GetItem(System.NativeUInt)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Heap.THeap&lt;1&gt;.SetItem(System.NativeUInt,T)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Heap.THeap&lt;1&gt;.GetCount()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Heap.THeap&lt;1&gt;.GetCapacity()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Heap.THeap&lt;1&gt;.Create()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Heap.THeap&lt;1&gt;.Create(System.NativeUInt)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Heap.THeap&lt;1&gt;.Create(DeHL.Types.IType&lt;1&gt;)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Heap.THeap&lt;1&gt;.Create(DeHL.Types.IType&lt;1&gt;,System.NativeUInt)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Heap.THeap&lt;1&gt;.Destroy()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Heap.THeap&lt;1&gt;.Clear()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Heap.THeap&lt;1&gt;.Add(T)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Heap.THeap&lt;1&gt;.Extract(System.NativeUInt)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Heap.THeap&lt;1&gt;.Remove(System.NativeUInt)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Heap.THeap&lt;1&gt;.Contains(System.NativeUInt)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Heap.THeap&lt;1&gt;.TryGetValue(System.NativeUInt,out@T)" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Collections.Heap.THeap&lt;1&gt;.Count" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Collections.Heap.THeap&lt;1&gt;.Capacity" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Collections.Heap.THeap&lt;1&gt;.Items[System.NativeUInt]" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Heap.THeap&lt;1&gt;.Shrink()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Heap.THeap&lt;1&gt;.Grow()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Heap.THeap&lt;1&gt;.GetEnumerator()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Heap.THeap&lt;1&gt;.CopyTo(ref@T[])" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Heap.THeap&lt;1&gt;.CopyTo(ref@T[],System.NativeUInt)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Heap.THeap&lt;1&gt;.Empty()" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Heap.THeap&lt;1&gt;.TEntry" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Heap.THeap&lt;1&gt;.TEnumerator" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Heap.TObjectHeap&lt;1&gt;">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:l_gnt:src:DeHL_Package:DeHL.Collections.Heap.TObjectHeap&lt;1&gt;:DeHL.Collections.Heap.THeap&lt;1&gt;" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Collections.Heap.TObjectHeap&lt;1&gt;.FWrapperType" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Heap.TObjectHeap&lt;1&gt;.GetOwnsObjects()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Heap.TObjectHeap&lt;1&gt;.SetOwnsObjects(System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Heap.TObjectHeap&lt;1&gt;.InstallType(DeHL.Types.IType&lt;1&gt;)" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Collections.Heap.TObjectHeap&lt;1&gt;.OwnsObjects" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Heap.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Collections.Heap.@unitclass.DefaultArrayLength" />
+    </reference>
+  </view>
+</nodeSet>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="yb9gu0pf1ql_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Box.IBox">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Box.IBox.HasBoxedValue()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Box.IBox.CompareTo(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Box.IBox.Equals(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Box.IBox.GetHashCode()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Box.IBox.ToString()" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Box.IBox&lt;1&gt;">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:l_gnt:src:DeHL_Package:DeHL.Box.IBox&lt;1&gt;:DeHL.Box.IBox" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Box.IBox&lt;1&gt;.TryPeek(out@T)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Box.IBox&lt;1&gt;.Peek()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Box.IBox&lt;1&gt;.TryUnbox(out@T)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Box.IBox&lt;1&gt;.Unbox()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Box.IBox&lt;1&gt;.CompareTo(T)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Box.IBox&lt;1&gt;.Equals(T)" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Box.TBox">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:l_impl:src:DeHL_Package:DeHL.Box.TBox:DeHL.Box.IBox" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Box.TBox.Serialize(DeHL.Serialization.TSerializationData)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Box.TBox.Deserialize(DeHL.Serialization.TDeserializationData)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Box.TBox.HasBoxedValue()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Box.TBox.CompareTo(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Box.TBox.Clone()" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Box.TBox&lt;1&gt;">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:l_gnt:src:DeHL_Package:DeHL.Box.TBox&lt;1&gt;:DeHL.Box.TBox" />
+      <reference referencedUin="delphi:l_impl:src:DeHL_Package:DeHL.Box.TBox&lt;1&gt;:DeHL.Box.IBox&lt;1&gt;" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Box.TBox&lt;1&gt;.FValue" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Box.TBox&lt;1&gt;.FIsBoxed" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Box.TBox&lt;1&gt;.FType" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Box.TBox&lt;1&gt;.Serialize(DeHL.Serialization.TSerializationData)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Box.TBox&lt;1&gt;.Deserialize(DeHL.Serialization.TDeserializationData)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Box.TBox&lt;1&gt;.Create(DeHL.Types.IType&lt;1&gt;,T)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Box.TBox&lt;1&gt;.Create(T)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Box.TBox&lt;1&gt;.Create(DeHL.Types.IType&lt;1&gt;)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Box.TBox&lt;1&gt;.Create()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Box.TBox&lt;1&gt;.HasBoxedValue()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Box.TBox&lt;1&gt;.TryPeek(out@T)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Box.TBox&lt;1&gt;.Peek()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Box.TBox&lt;1&gt;.TryUnbox(out@T)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Box.TBox&lt;1&gt;.Unbox()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Box.TBox&lt;1&gt;.UnboxAndFree()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Box.TBox&lt;1&gt;.CompareTo(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Box.TBox&lt;1&gt;.CompareTo(T)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Box.TBox&lt;1&gt;.Equals(T)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Box.TBox&lt;1&gt;.Equals(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Box.TBox&lt;1&gt;.GetHashCode()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Box.TBox&lt;1&gt;.ToString()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Box.TBox&lt;1&gt;.Clone()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Box.TBox&lt;1&gt;.Destroy()" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Box.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+  </view>
+</nodeSet>

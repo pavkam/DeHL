@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="tpluegm9laq_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.LinkedStack.TLinkedStack&lt;1&gt;">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Collections.LinkedStack.TLinkedStack&lt;1&gt;.FList" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.LinkedStack.TLinkedStack&lt;1&gt;.StartSerializing(DeHL.Serialization.TSerializationData)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.LinkedStack.TLinkedStack&lt;1&gt;.StartDeserializing(DeHL.Serialization.TDeserializationData)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.LinkedStack.TLinkedStack&lt;1&gt;.DeserializeElement(T)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.LinkedStack.TLinkedStack&lt;1&gt;.GetCount()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.LinkedStack.TLinkedStack&lt;1&gt;.Create()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.LinkedStack.TLinkedStack&lt;1&gt;.Create(DeHL.Base.IEnumerable`1)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.LinkedStack.TLinkedStack&lt;1&gt;.Create(T[])" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.LinkedStack.TLinkedStack&lt;1&gt;.Create(DeHL.Arrays.TDynamicArray`1)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.LinkedStack.TLinkedStack&lt;1&gt;.Create(DeHL.Arrays.TFixedArray`1)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.LinkedStack.TLinkedStack&lt;1&gt;.Create(DeHL.Types.IType&lt;1&gt;)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.LinkedStack.TLinkedStack&lt;1&gt;.Create(DeHL.Types.IType&lt;1&gt;,DeHL.Base.IEnumerable`1)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.LinkedStack.TLinkedStack&lt;1&gt;.Create(DeHL.Types.IType&lt;1&gt;,T[])" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.LinkedStack.TLinkedStack&lt;1&gt;.Create(DeHL.Types.IType&lt;1&gt;,DeHL.Arrays.TDynamicArray`1)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.LinkedStack.TLinkedStack&lt;1&gt;.Create(DeHL.Types.IType&lt;1&gt;,DeHL.Arrays.TFixedArray`1)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.LinkedStack.TLinkedStack&lt;1&gt;.Destroy()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.LinkedStack.TLinkedStack&lt;1&gt;.Clear()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.LinkedStack.TLinkedStack&lt;1&gt;.Push(T)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.LinkedStack.TLinkedStack&lt;1&gt;.Pop()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.LinkedStack.TLinkedStack&lt;1&gt;.Peek()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.LinkedStack.TLinkedStack&lt;1&gt;.Remove(T)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.LinkedStack.TLinkedStack&lt;1&gt;.Contains(T)" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Collections.LinkedStack.TLinkedStack&lt;1&gt;.Count" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.LinkedStack.TLinkedStack&lt;1&gt;.GetEnumerator()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.LinkedStack.TLinkedStack&lt;1&gt;.CopyTo(ref@T[])" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.LinkedStack.TLinkedStack&lt;1&gt;.CopyTo(ref@T[],System.NativeUInt)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.LinkedStack.TLinkedStack&lt;1&gt;.Empty()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.LinkedStack.TLinkedStack&lt;1&gt;.Max()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.LinkedStack.TLinkedStack&lt;1&gt;.Min()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.LinkedStack.TLinkedStack&lt;1&gt;.First()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.LinkedStack.TLinkedStack&lt;1&gt;.FirstOrDefault(T)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.LinkedStack.TLinkedStack&lt;1&gt;.Last()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.LinkedStack.TLinkedStack&lt;1&gt;.LastOrDefault(T)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.LinkedStack.TLinkedStack&lt;1&gt;.Single()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.LinkedStack.TLinkedStack&lt;1&gt;.SingleOrDefault(T)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.LinkedStack.TLinkedStack&lt;1&gt;.Aggregate(DeHL.Collections.LinkedStack.TLinkedStack`1.Aggregate.TFunc)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.LinkedStack.TLinkedStack&lt;1&gt;.AggregateOrDefault(DeHL.Collections.LinkedStack.TLinkedStack`1.AggregateOrDefault.TFunc,T)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.LinkedStack.TLinkedStack&lt;1&gt;.ElementAt(System.NativeUInt)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.LinkedStack.TLinkedStack&lt;1&gt;.ElementAtOrDefault(System.NativeUInt,T)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.LinkedStack.TLinkedStack&lt;1&gt;.Any(DeHL.Collections.LinkedStack.TLinkedStack`1.Any.TFunc)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.LinkedStack.TLinkedStack&lt;1&gt;.All(DeHL.Collections.LinkedStack.TLinkedStack`1.All.TFunc)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.LinkedStack.TLinkedStack&lt;1&gt;.EqualsTo(DeHL.Base.IEnumerable`1)" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.LinkedStack.TObjectLinkedStack&lt;1&gt;">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:l_gnt:src:DeHL_Package:DeHL.Collections.LinkedStack.TObjectLinkedStack&lt;1&gt;:DeHL.Collections.LinkedStack.TLinkedStack&lt;1&gt;" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Collections.LinkedStack.TObjectLinkedStack&lt;1&gt;.FWrapperType" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.LinkedStack.TObjectLinkedStack&lt;1&gt;.GetOwnsObjects()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.LinkedStack.TObjectLinkedStack&lt;1&gt;.SetOwnsObjects(System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.LinkedStack.TObjectLinkedStack&lt;1&gt;.InstallType(DeHL.Types.IType&lt;1&gt;)" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Collections.LinkedStack.TObjectLinkedStack&lt;1&gt;.OwnsObjects" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.LinkedStack.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+  </view>
+</nodeSet>

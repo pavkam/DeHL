@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="wjt79ubu2zh_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Serialization.Abstract.TReadStatus">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Abstract.TReadStatus.rsSuccess" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Abstract.TReadStatus.rsReadError" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Abstract.TReadStatus.rsIncompatibleType" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Abstract.TReadStatus.rsUnexpected" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Abstract.TReadStatus.rsNotBinary" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Serialization.Abstract.TWriteStatus">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Abstract.TWriteStatus.wsSuccess" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Abstract.TWriteStatus.wsWriteError" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Abstract.TWriteStatus.wsInvalidIdent" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Abstract.TWriteStatus.wsIdentRedeclared" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Serialization.Abstract.TComplexType">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Abstract.TComplexType.ctNone" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Abstract.TComplexType.ctClass" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Abstract.TComplexType.ctRecord" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Abstract.TComplexType.ctArray" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:l_ast:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.CurrentType" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.CHex" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.FCurrentRefId" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.FCurrentType" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.FTypeStack" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.FTypeCache" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.FPointerToReference" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.FReferenceToPointer" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.FContext" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.CheckRead(DeHL.Serialization.Abstract.TReadStatus)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.CheckWrite(DeHL.Serialization.Abstract.TWriteStatus)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.Path()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.Path(DeHL.Serialization.TValueInfo)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.GetType()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.GetRefId()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.GetElementIndex()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.GetElementInfo()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.GetCustom()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.SetCustom(TData)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.GetClassByQualifiedName(System.string)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.GetClassByQualifiedName(System.string,System.string)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.AddValue(DeHL.Serialization.TValueInfo,System.Byte)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.AddValue(DeHL.Serialization.TValueInfo,System.Shortint)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.AddValue(DeHL.Serialization.TValueInfo,System.Word)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.AddValue(DeHL.Serialization.TValueInfo,System.Smallint)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.AddValue(DeHL.Serialization.TValueInfo,System.Cardinal)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.AddValue(DeHL.Serialization.TValueInfo,System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.AddValue(DeHL.Serialization.TValueInfo,System.UInt64)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.AddValue(DeHL.Serialization.TValueInfo,System.Int64)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.AddValue(DeHL.Serialization.TValueInfo,System.Single)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.AddValue(DeHL.Serialization.TValueInfo,System.Double)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.AddValue(DeHL.Serialization.TValueInfo,System.Extended)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.AddValue(DeHL.Serialization.TValueInfo,System.Currency)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.AddValue(DeHL.Serialization.TValueInfo,System.Comp)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.AddValue(DeHL.Serialization.TValueInfo,System.AnsiChar)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.AddValue(DeHL.Serialization.TValueInfo,System.Char)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.AddValue(DeHL.Serialization.TValueInfo,System.AnsiString)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.AddValue(DeHL.Serialization.TValueInfo,System.string)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.AddValue(DeHL.Serialization.TValueInfo,System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.AddValue(DeHL.Serialization.TValueInfo,System.TDateTime)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.AddValue(DeHL.Serialization.TValueInfo,System.TClass)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.AddBinaryValue(DeHL.Serialization.TValueInfo,,System.NativeUInt)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.GetValue(DeHL.Serialization.TValueInfo,out@System.Byte)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.GetValue(DeHL.Serialization.TValueInfo,out@System.Shortint)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.GetValue(DeHL.Serialization.TValueInfo,out@System.Word)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.GetValue(DeHL.Serialization.TValueInfo,out@System.Smallint)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.GetValue(DeHL.Serialization.TValueInfo,out@System.Cardinal)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.GetValue(DeHL.Serialization.TValueInfo,out@System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.GetValue(DeHL.Serialization.TValueInfo,out@System.UInt64)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.GetValue(DeHL.Serialization.TValueInfo,out@System.Int64)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.GetValue(DeHL.Serialization.TValueInfo,out@System.Single)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.GetValue(DeHL.Serialization.TValueInfo,out@System.Double)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.GetValue(DeHL.Serialization.TValueInfo,out@System.Extended)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.GetValue(DeHL.Serialization.TValueInfo,out@System.Currency)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.GetValue(DeHL.Serialization.TValueInfo,out@System.Comp)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.GetValue(DeHL.Serialization.TValueInfo,out@System.AnsiChar)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.GetValue(DeHL.Serialization.TValueInfo,out@System.Char)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.GetValue(DeHL.Serialization.TValueInfo,out@System.AnsiString)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.GetValue(DeHL.Serialization.TValueInfo,out@System.string)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.GetValue(DeHL.Serialization.TValueInfo,out@System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.GetValue(DeHL.Serialization.TValueInfo,out@System.TDateTime)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.GetValue(DeHL.Serialization.TValueInfo,out@System.TClass)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.GetBinaryValue(DeHL.Serialization.TValueInfo,DeHL.Serialization.TGetBinaryMethod)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.WriteReference(System.NativeUInt)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.PrepareWriteClass(System.TClass,System.NativeUInt)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.PrepareWriteRecord(System.NativeUInt)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.PrepareWriteArray(System.NativeUInt,System.NativeUInt)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.PrepareReadClass(out@System.TClass,out@System.NativeUInt,out@System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.PrepareReadRecord(out@System.NativeUInt,out@System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.PrepareReadArray(out@System.NativeUInt,out@System.NativeUInt,out@System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.CloseComplexType()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.PrepareWriteValue()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.PrepareReadValue()" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.CurrentElementInfo" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.CurrentElementIndex" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.CurrentType" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.CurrentTypeReferenceId" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.CurrentCustomData" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.InReadableForm()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.Create()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.Destroy()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.WriteValue(System.Byte)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.WriteValue(System.Word)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.WriteValue(System.Cardinal)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.WriteValue(System.UInt64)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.WriteValue(System.Shortint)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.WriteValue(System.Smallint)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.WriteValue(System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.WriteValue(System.Int64)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.WriteValue(System.Single)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.WriteValue(System.Double)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.WriteValue(System.Comp)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.WriteValue(System.Extended)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.WriteValue(System.Currency)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.WriteValue(System.AnsiChar)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.WriteValue(System.Char)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.WriteValue(System.AnsiString)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.WriteValue(System.string)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.WriteValue(System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.WriteValue(System.TDateTime)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.WriteValue(System.TClass)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.WriteBinaryValue(System.Pointer,System.NativeUInt)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.ReadValue(out@System.Byte)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.ReadValue(out@System.Word)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.ReadValue(out@System.Cardinal)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.ReadValue(out@System.UInt64)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.ReadValue(out@System.Shortint)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.ReadValue(out@System.Smallint)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.ReadValue(out@System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.ReadValue(out@System.Int64)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.ReadValue(out@System.Single)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.ReadValue(out@System.Double)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.ReadValue(out@System.Comp)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.ReadValue(out@System.Extended)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.ReadValue(out@System.Currency)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.ReadValue(out@System.AnsiChar)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.ReadValue(out@System.Char)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.ReadValue(out@System.AnsiString)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.ReadValue(out@System.string)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.ReadValue(out@System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.ReadBinaryValue(DeHL.Serialization.TGetBinaryMethod)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.ReadValue(out@System.TDateTime)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.ReadValue(out@System.TClass)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.GetTypeInformation(TypInfo.TTypeInfo*)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.GetTypeObject(TypInfo.TTypeInfo*,DeHL.Serialization.Abstract.TAbstractSerializationContext`1.GetTypeObject.TFunc)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.StartRecordType(DeHL.Serialization.TValueInfo)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.StartRecordType(DeHL.Serialization.TValueInfo,System.Pointer)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.StartClassType(DeHL.Serialization.TValueInfo,System.TClass,System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.StartArrayType(DeHL.Serialization.TValueInfo,DeHL.Serialization.TValueInfo,System.NativeUInt)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.StartArrayType(DeHL.Serialization.TValueInfo,DeHL.Serialization.TValueInfo,System.NativeUInt,System.Pointer)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.ExpectRecordType(DeHL.Serialization.TValueInfo)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.ExpectRecordType(DeHL.Serialization.TValueInfo,out@System.Pointer)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.ExpectClassType(DeHL.Serialization.TValueInfo,ref@System.TClass,out@System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.ExpectArrayType(DeHL.Serialization.TValueInfo,DeHL.Serialization.TValueInfo,out@System.NativeUInt)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.ExpectArrayType(DeHL.Serialization.TValueInfo,DeHL.Serialization.TValueInfo,out@System.NativeUInt,out@System.Pointer)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.RegisterReference(System.Pointer)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.EndComplexType()" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Serialization.Abstract.TAbstractSerializationContext&lt;1&gt;.TStackEntry" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Serialization.Abstract.TSerializer&lt;3&gt;">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:l_ast:src:DeHL_Package:DeHL.Serialization.Abstract.TSerializer&lt;3&gt;.Context" />
+      <reference referencedUin="delphi:l_ast:src:DeHL_Package:DeHL.Serialization.Abstract.TSerializer&lt;3&gt;.FContext" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Abstract.TSerializer&lt;3&gt;.FInContext" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Abstract.TSerializer&lt;3&gt;.FOutContext" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Abstract.TSerializer&lt;3&gt;.FContext" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Abstract.TSerializer&lt;3&gt;.FType" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Abstract.TSerializer&lt;3&gt;.FInfo" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Serialization.Abstract.TSerializer&lt;3&gt;.Context" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TSerializer&lt;3&gt;.CreateContext()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TSerializer&lt;3&gt;.PrepareForSerialization(TMedium)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TSerializer&lt;3&gt;.PrepareForDeserialization(TMedium)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TSerializer&lt;3&gt;.Create()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TSerializer&lt;3&gt;.Create(DeHL.Types.IType&lt;1&gt;)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TSerializer&lt;3&gt;.Serialize(T,TMedium)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Abstract.TSerializer&lt;3&gt;.Deserialize(out@T,TMedium)" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Serialization.Abstract.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+  </view>
+</nodeSet>

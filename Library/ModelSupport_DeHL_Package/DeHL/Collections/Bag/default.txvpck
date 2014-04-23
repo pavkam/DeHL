@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="lvujt8l0yhp_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Bag.TBag&lt;1&gt;">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Collections.Bag.TBag&lt;1&gt;.FInitialCapacity" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Bag.TBag&lt;1&gt;.CreateDictionary(DeHL.Types.IType&lt;1&gt;)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Bag.TBag&lt;1&gt;.StartSerializing(DeHL.Serialization.TSerializationData)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Bag.TBag&lt;1&gt;.StartDeserializing(DeHL.Serialization.TDeserializationData)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Bag.TBag&lt;1&gt;.DeserializeElement(T)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Bag.TBag&lt;1&gt;.Create(System.NativeUInt)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Bag.TBag&lt;1&gt;.Create(DeHL.Types.IType&lt;1&gt;,System.NativeUInt)" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Bag.TObjectBag&lt;1&gt;">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:l_gnt:src:DeHL_Package:DeHL.Collections.Bag.TObjectBag&lt;1&gt;:DeHL.Collections.Bag.TBag&lt;1&gt;" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Collections.Bag.TObjectBag&lt;1&gt;.FWrapperType" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Bag.TObjectBag&lt;1&gt;.GetOwnsObjects()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Bag.TObjectBag&lt;1&gt;.SetOwnsObjects(System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Bag.TObjectBag&lt;1&gt;.InstallType(DeHL.Types.IType&lt;1&gt;)" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Collections.Bag.TObjectBag&lt;1&gt;.OwnsObjects" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Bag.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Collections.Bag.@unitclass.DefaultArrayLength" />
+    </reference>
+  </view>
+</nodeSet>

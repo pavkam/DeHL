@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="eny9wmsmnct_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.SortedDistinctMultiMap.TSortedDistinctMultiMap&lt;2&gt;">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Collections.SortedDistinctMultiMap.TSortedDistinctMultiMap&lt;2&gt;.FAscSort" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.SortedDistinctMultiMap.TSortedDistinctMultiMap&lt;2&gt;.CreateDictionary(DeHL.Types.IType&lt;TKey&gt;)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.SortedDistinctMultiMap.TSortedDistinctMultiMap&lt;2&gt;.CreateSet(DeHL.Types.IType&lt;TValue&gt;)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.SortedDistinctMultiMap.TSortedDistinctMultiMap&lt;2&gt;.StartSerializing(DeHL.Serialization.TSerializationData)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.SortedDistinctMultiMap.TSortedDistinctMultiMap&lt;2&gt;.StartDeserializing(DeHL.Serialization.TDeserializationData)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.SortedDistinctMultiMap.TSortedDistinctMultiMap&lt;2&gt;.DeserializePair(TKey,TValue)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.SortedDistinctMultiMap.TSortedDistinctMultiMap&lt;2&gt;.Create(System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.SortedDistinctMultiMap.TSortedDistinctMultiMap&lt;2&gt;.Create(DeHL.Base.IEnumerable`1,System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.SortedDistinctMultiMap.TSortedDistinctMultiMap&lt;2&gt;.Create(DeHL.Tuples.KVPair&lt;2&gt;[],System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.SortedDistinctMultiMap.TSortedDistinctMultiMap&lt;2&gt;.Create(DeHL.Collections.Base.TCollection`1.TDynamicArray`1,System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.SortedDistinctMultiMap.TSortedDistinctMultiMap&lt;2&gt;.Create(DeHL.Collections.Base.TCollection`1.TDynamicArray`1.TFixedArray`1,System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.SortedDistinctMultiMap.TSortedDistinctMultiMap&lt;2&gt;.Create(DeHL.Types.IType&lt;TKey&gt;,DeHL.Types.IType&lt;TValue&gt;,System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.SortedDistinctMultiMap.TSortedDistinctMultiMap&lt;2&gt;.Create(DeHL.Types.IType&lt;TKey&gt;,DeHL.Types.IType&lt;TValue&gt;,DeHL.Base.IEnumerable`1,System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.SortedDistinctMultiMap.TSortedDistinctMultiMap&lt;2&gt;.Create(DeHL.Types.IType&lt;TKey&gt;,DeHL.Types.IType&lt;TValue&gt;,DeHL.Tuples.KVPair&lt;2&gt;[],System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.SortedDistinctMultiMap.TSortedDistinctMultiMap&lt;2&gt;.Create(DeHL.Types.IType&lt;TKey&gt;,DeHL.Types.IType&lt;TValue&gt;,DeHL.Collections.Base.TCollection`1.TDynamicArray`1,System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.SortedDistinctMultiMap.TSortedDistinctMultiMap&lt;2&gt;.Create(DeHL.Types.IType&lt;TKey&gt;,DeHL.Types.IType&lt;TValue&gt;,DeHL.Collections.Base.TCollection`1.TDynamicArray`1.TFixedArray`1,System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.SortedDistinctMultiMap.TSortedDistinctMultiMap&lt;2&gt;.MaxKey()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.SortedDistinctMultiMap.TSortedDistinctMultiMap&lt;2&gt;.MinKey()" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.SortedDistinctMultiMap.TObjectSortedDistinctMultiMap&lt;2&gt;">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:l_gnt:src:DeHL_Package:DeHL.Collections.SortedDistinctMultiMap.TObjectSortedDistinctMultiMap&lt;2&gt;:DeHL.Collections.SortedDistinctMultiMap.TSortedDistinctMultiMap&lt;2&gt;" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Collections.SortedDistinctMultiMap.TObjectSortedDistinctMultiMap&lt;2&gt;.FKeyWrapperType" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Collections.SortedDistinctMultiMap.TObjectSortedDistinctMultiMap&lt;2&gt;.FValueWrapperType" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.SortedDistinctMultiMap.TObjectSortedDistinctMultiMap&lt;2&gt;.GetOwnsKeys()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.SortedDistinctMultiMap.TObjectSortedDistinctMultiMap&lt;2&gt;.SetOwnsKeys(System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.SortedDistinctMultiMap.TObjectSortedDistinctMultiMap&lt;2&gt;.GetOwnsValues()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.SortedDistinctMultiMap.TObjectSortedDistinctMultiMap&lt;2&gt;.SetOwnsValues(System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.SortedDistinctMultiMap.TObjectSortedDistinctMultiMap&lt;2&gt;.InstallTypes(DeHL.Types.TType`1.IType`1,DeHL.Types.TType`1.IType`1)" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Collections.SortedDistinctMultiMap.TObjectSortedDistinctMultiMap&lt;2&gt;.OwnsKeys" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Collections.SortedDistinctMultiMap.TObjectSortedDistinctMultiMap&lt;2&gt;.OwnsValues" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.SortedDistinctMultiMap.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+  </view>
+</nodeSet>

@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<TgConfig Version="3" SubLevelDisabled="False">
+  <Option Name="ViewManag.ShowAttributes" Type="System.Boolean" Value="False" Category="View Management" SubCategory="MembersFilters" />
+  <Option Name="ViewManag.ShowNonPublicMembers" Type="System.Boolean" Value="False" Category="View Management" SubCategory="MembersFilters" />
+</TgConfig>

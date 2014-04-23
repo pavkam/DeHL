@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="qk8aicwrpye_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="design:view:::xbir8qprq6t0m0dyh_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="design:view:::970g3r10p0tdn5o3j_v" />
+      <reference referencedUin="design:view:::e5gfgrp6w0tjg6jdh_v" />
+      <reference referencedUin="design:view:::8lthe1un4ataudn6p_v" />
+      <reference referencedUin="design:view:::mdjlnnlunfq_v" />
+      <reference referencedUin="design:view:::yl1kuaa00ks_v" />
+      <reference referencedUin="design:view:::sx0s6wkeshs_v" />
+      <reference referencedUin="design:view:::crhc57qniws_v" />
+      <reference referencedUin="design:view:::ugttn65wryg_v" />
+      <reference referencedUin="design:view:::p7vlkbkepug_v" />
+      <reference referencedUin="design:view:::nztcnv128bn_v" />
+      <reference referencedUin="design:view:::yb9gu0pf1ql_v" />
+      <reference referencedUin="design:view:::3u7nwiv3hog_v" />
+      <reference referencedUin="design:view:::qv30my2mwcs_v" />
+      <reference referencedUin="design:view:::9r0b3k0at2n_v" />
+      <reference referencedUin="design:view:::qv70xvbywjk_v" />
+      <reference referencedUin="design:view:::14cc90eepse_v" />
+      <reference referencedUin="design:view:::bvzkksjbcum_v" />
+      <reference referencedUin="design:view:::0bslh6h4scm_v" />
+      <reference referencedUin="design:view:::itxhs60c6ij_v" />
+    </reference>
+  </view>
+</nodeSet>

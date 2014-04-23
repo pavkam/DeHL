@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="8lthe1un4ataudn6p_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="design:view:::b8b0m7e58gf_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.Algorithms.Accumulator" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.Algorithms.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::00mqw1o3j1i_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.BigDecimal.TRoundingMode" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.BigDecimal.BigDecimal" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.BigDecimal.TBigDecimalType" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.BigDecimal.TBigDecimalMathExtension" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.BigDecimal.TBigDecimalVarData" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.BigDecimal.TBigDecimalVariantType" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.BigDecimal.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::bn5bitgab1g_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.Primes.Prime" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.Primes.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::d11j4k534xl_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.BigCardinal.BigCardinal" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.BigCardinal.TBigCardinalType" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.BigCardinal.TBigCardinalMathExtension" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.BigCardinal.TBigCardinalVarData" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.BigCardinal.TBigCardinalVariantType" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.BigCardinal.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.BigCardinal.PBigCardinal" />
+    </reference>
+    <reference referencedUin="design:view:::7gytm6vuayh_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.Types.IMathExtension&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.Types.IUnsignedIntegerMathExtension&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.Types.IIntegerMathExtension&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.Types.IRealMathExtension&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.Types.TMathExtension" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.Types.TMathExtensionClass" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.Types.TMathExtension&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.Types.TUnsignedIntegerMathExtension&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.Types.TRealMathExtension&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.Types.TIntegerMathExtension&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.Types.TByteMathExtension" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.Types.TShortIntMathExtension" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.Types.TWordMathExtension" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.Types.TSmallIntMathExtension" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.Types.TCardinalMathExtension" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.Types.TIntegerMathExtension" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.Types.TUInt64MathExtension" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.Types.TInt64MathExtension" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.Types.TSingleMathExtension" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.Types.TDoubleMathExtension" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.Types.TExtendedMathExtension" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.Types.TCurrencyMathExtension" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.Types.TCompMathExtension" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.Types.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::bwrf7pfwjse_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.Half.Half" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.Half.THalfType" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.Half.THalfMathExtension" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.Half.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::z29evcoi5ik_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.BigInteger.BigInteger" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.BigInteger.TBigIntegerType" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.BigInteger.TBigIntegerMathExtension" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.BigInteger.TBigIntegerVarData" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.BigInteger.TBigIntegerVariantType" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.BigInteger.@unitclass" />
+    </reference>
+  </view>
+</nodeSet>

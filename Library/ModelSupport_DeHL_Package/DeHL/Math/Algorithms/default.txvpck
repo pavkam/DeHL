@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="b8b0m7e58gf_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.Algorithms.Accumulator">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Algorithms.Accumulator.Sum&lt;1&gt;(DeHL.Collections.Base.IEnexCollection&lt;1&gt;,DeHL.Types.IType&lt;1&gt;)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Algorithms.Accumulator.Sum&lt;1&gt;(DeHL.Collections.Base.IEnexCollection&lt;1&gt;)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Algorithms.Accumulator.Average&lt;1&gt;(DeHL.Collections.Base.IEnexCollection&lt;1&gt;,DeHL.Types.IType&lt;1&gt;)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Math.Algorithms.Accumulator.Average&lt;1&gt;(DeHL.Collections.Base.IEnexCollection&lt;1&gt;)" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Math.Algorithms.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+  </view>
+</nodeSet>

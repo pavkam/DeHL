@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="5sktn13stkp_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Serialization.XML.XmlName">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.XML.XmlName.FName" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.XML.XmlName.FNamespace" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.XML.XmlName.Create(System.string,System.string)" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Serialization.XML.XmlArrayElement">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.XML.XmlArrayElement.FName" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.XML.XmlArrayElement.Create(System.string)" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Serialization.XML.TXmlSerializeData">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.XML.TXmlSerializeData.FNS" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.XML.TXmlSerializeData.FElementName" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.XML.TXmlSerializeData.ChangeNS(System.string)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.XML.TXmlSerializeData.ChangeElementName(System.string)" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Serialization.XML.TXmlSerializer&lt;1&gt;">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.XML.TXmlSerializer&lt;1&gt;.FReferenceIdAttribute" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.XML.TXmlSerializer&lt;1&gt;.FReferenceToAttribute" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.XML.TXmlSerializer&lt;1&gt;.FClassAttribute" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.XML.TXmlSerializer&lt;1&gt;.FElementsAttribute" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.XML.TXmlSerializer&lt;1&gt;.FDefaultToTags" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.XML.TXmlSerializer&lt;1&gt;.FXSI" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.XML.TXmlSerializer&lt;1&gt;.FXSD" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.XML.TXmlSerializer&lt;1&gt;.FSerializerNS" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.XML.TXmlSerializer&lt;1&gt;.CreateContext()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.XML.TXmlSerializer&lt;1&gt;.PrepareForSerialization(XMLIntf.IXMLNode)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.XML.TXmlSerializer&lt;1&gt;.PrepareForDeserialization(XMLIntf.IXMLNode)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.XML.TXmlSerializer&lt;1&gt;.AfterConstruction()" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Serialization.XML.TXmlSerializer&lt;1&gt;.ReferenceIdAttribute" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Serialization.XML.TXmlSerializer&lt;1&gt;.ReferenceToAttribute" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Serialization.XML.TXmlSerializer&lt;1&gt;.ClassTypeAttribute" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Serialization.XML.TXmlSerializer&lt;1&gt;.CountOfElementsAttribute" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Serialization.XML.TXmlSerializer&lt;1&gt;.DefaultFieldsToElements" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Serialization.XML.TXmlSerializer&lt;1&gt;.SerializerNamespace" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Serialization.XML.TXmlSerializer&lt;1&gt;.XSD" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Serialization.XML.TXmlSerializer&lt;1&gt;.XSI" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Serialization.XML.TXmlSerializer&lt;1&gt;.TXmlSerializationContext" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Serialization.XML.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+  </view>
+</nodeSet>

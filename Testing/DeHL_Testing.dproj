@@ -1,0 +1,195 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{32534B25-9963-4547-919A-1E0BBA8A3A9D}</ProjectGuid>
+			<ProjectVersion>12.2</ProjectVersion>
+			<Config Condition="'$(Config)'==''">Debug</Config>
+			<DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+			<MainSource>DeHL_Testing.dpr</MainSource>
+			<Platform Condition="'$(Platform)'==''">Win32</Platform>
+			<Base>True</Base>
+			<AppType>Application</AppType>
+			<FrameworkType>VCL</FrameworkType>
+			<Platform>Win32</Platform>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Release' or '$(Cfg_1)'!=''">
+			<Cfg_1>true</Cfg_1>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Debug' or '$(Cfg_2)'!=''">
+			<Cfg_2>true</Cfg_2>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Base)'!=''">
+			<AppType>Application</AppType>
+			<FrameworkType>VCL</FrameworkType>
+			<DCC_GenerateStackFrames>true</DCC_GenerateStackFrames>
+			<BRCC_IncludePath>..\Library\src;..\Library\src\Collections;..\Library\src\Date;..\Library\src\Extensions;..\Library\src\Math;$(BRCC_IncludePath)</BRCC_IncludePath>
+			<DCC_DUPLICATE_CTOR_DTOR>false</DCC_DUPLICATE_CTOR_DTOR>
+			<DCC_Inlining>off</DCC_Inlining>
+			<DCC_UnitSearchPath>$(BDS)\Source\DUnit\src;..\Library\src;..\Library\src\Date;..\Library\src\Collections;..\Library\src\Math;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
+			<DCC_Define>_CONSOLE_TESTRUNNER;$(DCC_Define)</DCC_Define>
+			<DCC_DependencyCheckOutputName>..\bin\DeHL_Testing.exe</DCC_DependencyCheckOutputName>
+			<DCC_ExeOutput>..\bin\</DCC_ExeOutput>
+			<BRCC_OutputDir>..\bin\</BRCC_OutputDir>
+			<DCC_BplOutput>..\bin\</DCC_BplOutput>
+			<DCC_Platform>x86</DCC_Platform>
+			<DCC_UnitAlias>WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE;$(DCC_UnitAlias)</DCC_UnitAlias>
+			<DCC_ImageBase>00400000</DCC_ImageBase>
+			<DCC_N>false</DCC_N>
+			<DCC_K>false</DCC_K>
+			<DCC_DcpOutput>..\bin\</DCC_DcpOutput>
+			<DCC_S>false</DCC_S>
+			<DCC_DcuOutput>..\bin\</DCC_DcuOutput>
+			<DCC_UsePackage>vclx;vcl;dbrtl;Rave76VCL;bdertl;rtl;vclactnband;xmlrtl;vcldb;vcldbx;dsnap;dsnapcon;TeeUI;TeeDB;Tee;adortl;vclib;ibxpress;IndyCore;IndySystem;IndyProtocols;inet;intrawebdb_100_120;Intraweb_100_120;VclSmp;vclie;websnap;webdsnap;inetdbbde;inetdbxpress;soaprtl;vclribbon;dbexpress;DbxCommonDriver;DataSnapIndy10ServerTransport;DataSnapProviderClient;DataSnapServer;DbxClientDriver;DBXInterBaseDriver;DBXMySQLDriver;dbxcds;DBXSybaseASEDriver;DBXSybaseASADriver;DBXOracleDriver;DBXMSSQLDriver;DBXInformixDriver;DBXDb2Driver;Jcl;Library;DeHL_Package</DCC_UsePackage>
+			<DCC_F>false</DCC_F>
+			<DCC_E>false</DCC_E>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_1)'!=''">
+			<DCC_LocalDebugSymbols>false</DCC_LocalDebugSymbols>
+			<DCC_Define>RELEASE;$(DCC_Define)</DCC_Define>
+			<DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+			<DCC_DebugInformation>false</DCC_DebugInformation>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_2)'!=''">
+			<DCC_UnitSearchPath>..\Library\src\Extensions;..\Library\src\Serialization;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
+			<DCC_Define>DEBUG;$(DCC_Define)</DCC_Define>
+		</PropertyGroup>
+		<ItemGroup>
+			<DelphiCompile Include="DeHL_Testing.dpr">
+				<MainSource>MainSource</MainSource>
+			</DelphiCompile>
+			<DCCReference Include="src\Utils\Tests.Utils.pas"/>
+			<DCCReference Include="src\Tests.Base.pas"/>
+			<DCCReference Include="src\Tests.TypeSupport.pas"/>
+			<DCCReference Include="src\Tests.TypeConv.pas"/>
+			<DCCReference Include="src\Tests.FixedArray.pas"/>
+			<DCCReference Include="src\Tests.DynamicArray.pas"/>
+			<DCCReference Include="src\Tests.ArrayAlgorithms.pas"/>
+			<DCCReference Include="src\Tests.KeyValuePair.pas"/>
+			<DCCReference Include="src\Tests.TString.pas"/>
+			<DCCReference Include="src\Tests.Bytes.pas"/>
+			<DCCReference Include="src\Tests.Tuples.pas"/>
+			<DCCReference Include="src\Tests.Nullable.pas"/>
+			<DCCReference Include="src\Tests.Box.pas"/>
+			<DCCReference Include="src\Tests.References.pas"/>
+			<DCCReference Include="src\Tests.Singleton.pas"/>
+			<DCCReference Include="src\Tests.Converter.pas"/>
+			<DCCReference Include="src\Tests.WideCharSet.pas"/>
+			<DCCReference Include="src\Tests.Date.pas"/>
+			<DCCReference Include="src\Tests.DateTime.pas"/>
+			<DCCReference Include="src\Tests.Time.pas"/>
+			<DCCReference Include="src\Tests.BigCardinal.pas"/>
+			<DCCReference Include="src\Tests.BigInteger.pas"/>
+			<DCCReference Include="src\Tests.BigDecimal.pas"/>
+			<DCCReference Include="src\Tests.Half.pas"/>
+			<DCCReference Include="src\Tests.MathTypes.pas"/>
+			<DCCReference Include="src\Tests.MathAlgorithms.pas"/>
+			<DCCReference Include="src\Tests.Serialization.pas"/>
+			<DCCReference Include="src\Tests.Serialization.Gross.pas"/>
+			<DCCReference Include="src\Tests.Cloning.pas"/>
+			<DCCReference Include="src\Tests.Enex.pas"/>
+			<DCCReference Include="src\Tests.Stack.pas"/>
+			<DCCReference Include="src\Tests.Queue.pas"/>
+			<DCCReference Include="src\Tests.PriorityQueue.pas"/>
+			<DCCReference Include="src\Tests.List.pas"/>
+			<DCCReference Include="src\Tests.Dictionary.pas"/>
+			<DCCReference Include="src\Tests.ArraySet.pas"/>
+			<DCCReference Include="src\Tests.HashSet.pas"/>
+			<DCCReference Include="src\Tests.Bag.pas"/>
+			<DCCReference Include="src\Tests.MultiMap.pas"/>
+			<DCCReference Include="src\Tests.LinkedList.pas"/>
+			<DCCReference Include="src\Tests.LinkedStack.pas"/>
+			<DCCReference Include="src\Tests.LinkedQueue.pas"/>
+			<DCCReference Include="src\Tests.SortedList.pas"/>
+			<DCCReference Include="src\Tests.SortedDictionary.pas"/>
+			<DCCReference Include="src\Tests.SortedSet.pas"/>
+			<DCCReference Include="src\Tests.SortedBag.pas"/>
+			<DCCReference Include="src\Tests.SortedMultiMap.pas"/>
+			<DCCReference Include="src\Tests.DoubleSortedMultiMap.pas"/>
+			<DCCReference Include="src\Tests.DistinctMultiMap.pas"/>
+			<DCCReference Include="src\Tests.SortedDistinctMultiMap.pas"/>
+			<DCCReference Include="src\Tests.DoubleSortedDistinctMultiMap.pas"/>
+			<DCCReference Include="src\Tests.Interop.pas"/>
+			<DCCReference Include="src\Tests.VCLStringLists.pas"/>
+			<DCCReference Include="src\Tests.BidiMap.pas"/>
+			<DCCReference Include="src\Tests.SortedBidiMap.pas"/>
+			<DCCReference Include="src\Tests.DoubleSortedBidiMap.pas"/>
+			<DCCReference Include="src\Tests.Heap.pas"/>
+			<BuildConfiguration Include="Debug">
+				<Key>Cfg_2</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Base">
+				<Key>Base</Key>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Release">
+				<Key>Cfg_1</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+		</ItemGroup>
+		<Import Condition="Exists('$(BDS)\Bin\CodeGear.Delphi.Targets')" Project="$(BDS)\Bin\CodeGear.Delphi.Targets"/>
+		<Import Condition="Exists('$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\9.0\UserTools.proj')" Project="$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\9.0\UserTools.proj"/>
+		<ProjectExtensions>
+			<Borland.Personality>Delphi.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Delphi.Personality>
+					<Parameters/>
+					<VersionInfo>
+						<VersionInfo Name="IncludeVerInfo">True</VersionInfo>
+						<VersionInfo Name="AutoIncBuild">True</VersionInfo>
+						<VersionInfo Name="MajorVer">0</VersionInfo>
+						<VersionInfo Name="MinorVer">8</VersionInfo>
+						<VersionInfo Name="Release">4</VersionInfo>
+						<VersionInfo Name="Build">295</VersionInfo>
+						<VersionInfo Name="Debug">True</VersionInfo>
+						<VersionInfo Name="PreRelease">False</VersionInfo>
+						<VersionInfo Name="Special">False</VersionInfo>
+						<VersionInfo Name="Private">False</VersionInfo>
+						<VersionInfo Name="DLL">False</VersionInfo>
+						<VersionInfo Name="Locale">1033</VersionInfo>
+						<VersionInfo Name="CodePage">1252</VersionInfo>
+					</VersionInfo>
+					<VersionInfoKeys>
+						<VersionInfoKeys Name="CompanyName">Ciobanu Alexandru</VersionInfoKeys>
+						<VersionInfoKeys Name="FileDescription">Testing for DeHL</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">0.8.4.295</VersionInfoKeys>
+						<VersionInfoKeys Name="InternalName">DeHL.Testing</VersionInfoKeys>
+						<VersionInfoKeys Name="LegalCopyright">Ciobanu Alexandru</VersionInfoKeys>
+						<VersionInfoKeys Name="LegalTrademarks"/>
+						<VersionInfoKeys Name="OriginalFilename">DeHL_Testing.exe</VersionInfoKeys>
+						<VersionInfoKeys Name="ProductName">Testing for DeHL</VersionInfoKeys>
+						<VersionInfoKeys Name="ProductVersion">0.8</VersionInfoKeys>
+						<VersionInfoKeys Name="Comments"/>
+					</VersionInfoKeys>
+					<Excluded_Packages/>
+					<Source>
+						<Source Name="MainSource">DeHL_Testing.dpr</Source>
+					</Source>
+					<isVersionControl>
+						<isVersionControl Name="isVersionControlID"/>
+					</isVersionControl>
+					<VersionControl>
+						<VersionControl Name="VersionControlID"/>
+					</VersionControl>
+				</Delphi.Personality>
+				<UnitTesting>
+					<TestFramework>DUnit / Delphi Win32</TestFramework>
+					<TestRunner>GUI</TestRunner>
+					<TestProjectName/>
+					<SourceProjectName/>
+				</UnitTesting>
+				<ModelSupport>False</ModelSupport>
+				<Platforms>
+					<Platform value="Win32">True</Platform>
+				</Platforms>
+			</BorlandProject>
+			<ProjectFileVersion>12</ProjectFileVersion>
+		</ProjectExtensions>
+		<Import Condition="Exists('$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj')" Project="$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj"/>
+	</Project>

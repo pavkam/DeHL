@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="970g3r10p0tdn5o3j_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="design:view:::vs9xkp0k8yj_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.SortedSet.TSortedSet&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.SortedSet.TObjectSortedSet&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.SortedSet.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::ojvr7llisjr_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.HashTree.THashTree&lt;2&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.HashTree.TObjectHashTree&lt;2&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.HashTree.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::tpluegm9laq_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.LinkedStack.TLinkedStack&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.LinkedStack.TObjectLinkedStack&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.LinkedStack.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::8vgxiu3hj3j_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.ArraySet.TArraySet&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.ArraySet.TObjectArraySet&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.ArraySet.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::9x6flk0mr0f_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Abstract.TAbstractMultiMap&lt;2&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Abstract.TAbstractDistinctMultiMap&lt;2&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Abstract.TAbstractBidiMap&lt;2&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Abstract.TAbstractBag&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Abstract.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::ym9ckuyfhgs_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.PriorityQueue.TPriorityQueue&lt;2&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.PriorityQueue.TObjectPriorityQueue&lt;2&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.PriorityQueue.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::9xzgas3ydot_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.BidiMap.TBidiMap&lt;2&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.BidiMap.TObjectBidiMap&lt;2&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.BidiMap.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::0chp8ze7myi_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.SortedList.TSortedList&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.SortedList.TObjectSortedList&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.SortedList.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::j9dkg98t67q_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.List.TList&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.List.TObjectList&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.List.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::lvujt8l0yhp_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Bag.TBag&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Bag.TObjectBag&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Bag.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::wagxtqcu27l_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Interop.TVCLCollection" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Interop.TStringList&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Interop.TWideStringList&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Interop.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::7tyn5hshadh_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.MultiMap.TMultiMap&lt;2&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.MultiMap.TObjectMultiMap&lt;2&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.MultiMap.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::70pj3glijlh_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.SortedMultiMap.TSortedMultiMap&lt;2&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.SortedMultiMap.TObjectSortedMultiMap&lt;2&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.SortedMultiMap.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::37cq92fkpys_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.SortedBag.TSortedBag&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.SortedBag.TObjectSortedBag&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.SortedBag.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::684b4v39aeh_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Heap.THeap&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Heap.TObjectHeap&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Heap.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::lzy4odpr31k_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.DoubleSortedDistinctMultiMap.TDoubleSortedDistinctMultiMap&lt;2&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.DoubleSortedDistinctMultiMap.TObjectDoubleSortedDistinctMultiMap&lt;2&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.DoubleSortedDistinctMultiMap.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::d8vhqc2oq4n_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.DistinctMultiMap.TDistinctMultiMap&lt;2&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.DistinctMultiMap.TObjectDistinctMultiMap&lt;2&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.DistinctMultiMap.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::n12svewm68l_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.LinkedQueue.TLinkedQueue&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.LinkedQueue.TObjectLinkedQueue&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.LinkedQueue.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::eny9wmsmnct_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.SortedDistinctMultiMap.TSortedDistinctMultiMap&lt;2&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.SortedDistinctMultiMap.TObjectSortedDistinctMultiMap&lt;2&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.SortedDistinctMultiMap.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::bczxraiunei_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Stack.TStack&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Stack.TObjectStack&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Stack.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::qvq4gc6eu6f_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.SortedDictionary.TSortedDictionary&lt;2&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.SortedDictionary.TObjectSortedDictionary&lt;2&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.SortedDictionary.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::b8kyrym358j_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.DoubleSortedMultiMap.TDoubleSortedMultiMap&lt;2&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.DoubleSortedMultiMap.TObjectDoubleSortedMultiMap&lt;2&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.DoubleSortedMultiMap.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::eyfr68lw53n_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Dictionary.TDictionary&lt;2&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Dictionary.TObjectDictionary&lt;2&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Dictionary.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Dictionary.TBugReproducer" />
+    </reference>
+    <reference referencedUin="design:view:::oibysqem1zp_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Queue.TQueue&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Queue.TObjectQueue&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Queue.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::ydkg6f4rjks_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Base.ICollection&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Base.TEnexExtOps&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Base.IEnexCollection&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Base.IEnexIndexedCollection&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Base.IEnexAssociativeCollection&lt;2&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Base.IStack&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Base.IQueue&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Base.IPriorityQueue&lt;2&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Base.ISet&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Base.IBag&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Base.IMap&lt;2&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Base.IDictionary&lt;2&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Base.ICollectionMap&lt;2&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Base.IBidiMap&lt;2&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Base.IMultiMap&lt;2&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Base.IDistinctMultiMap&lt;2&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Base.IList&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Base.ISortedList&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Base.IDynamic" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Base.TEnumerator&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Base.TCollection&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Base.TEnexCollection&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Base.TEnexAssociativeCollection&lt;2&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Base.TEnexWhereCollection&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Base.TEnexSelectCollection&lt;2&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Base.TEnexSelectClassCollection&lt;2&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Base.TEnexCastCollection&lt;2&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Base.TEnexConcatCollection&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Base.TEnexUnionCollection&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Base.TEnexExclusionCollection&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Base.TEnexIntersectionCollection&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Base.TEnexDistinctCollection&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Base.TEnexRangeCollection&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Base.TEnexSkipCollection&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Base.TEnexTakeCollection&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Base.TEnexFillCollection&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Base.TEnexIntervalCollection&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Base.TEnexTakeWhileCollection&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Base.TEnexSkipWhileCollection&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Base.TEnexWrapCollection&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Base.TEnexAssociativeWrapCollection&lt;2&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Base.TEnexSelectKeysCollection&lt;2&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Base.TEnexSelectValuesCollection&lt;2&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Base.TEnexAssociativeWhereCollection&lt;2&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Base.TEnexAssociativeDistinctByKeysCollection&lt;2&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Base.TEnexAssociativeDistinctByValuesCollection&lt;2&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Base.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::b71nm7s4x0k_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.DoubleSortedBidiMap.TDoubleSortedBidiMap&lt;2&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.DoubleSortedBidiMap.TObjectDoubleSortedBidiMap&lt;2&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.DoubleSortedBidiMap.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::k0dwrmg82lk_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.SortedBidiMap.TSortedBidiMap&lt;2&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.SortedBidiMap.TObjectSortedBidiMap&lt;2&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.SortedBidiMap.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::xt0cp4midkr_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.HashSet.THashSet&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.HashSet.TObjectHashSet&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.HashSet.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::17ysou3rbcj_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.LinkedList.TLinkedListNode&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.LinkedList.TLinkedList&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.LinkedList.TObjectLinkedList&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.LinkedList.@unitclass" />
+    </reference>
+  </view>
+</nodeSet>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="0bslh6h4scm_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Tuples.Tuple&lt;1&gt;">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Tuples.Tuple&lt;1&gt;.FValue1" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Tuples.Tuple&lt;1&gt;.Create()static" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Tuples.Tuple&lt;1&gt;.Destroy()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Tuples.Tuple&lt;1&gt;.Create(T1)" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Tuples.Tuple&lt;1&gt;.Value1" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Tuples.Tuple&lt;2&gt;">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Tuples.Tuple&lt;2&gt;.FValue1" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Tuples.Tuple&lt;2&gt;.FValue2" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Tuples.Tuple&lt;2&gt;.Create()static" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Tuples.Tuple&lt;2&gt;.Destroy()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Tuples.Tuple&lt;2&gt;.Create(T1,T2)" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Tuples.Tuple&lt;2&gt;.Value1" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Tuples.Tuple&lt;2&gt;.Value2" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Tuples.Tuple&lt;3&gt;">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Tuples.Tuple&lt;3&gt;.FValue1" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Tuples.Tuple&lt;3&gt;.FValue2" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Tuples.Tuple&lt;3&gt;.FValue3" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Tuples.Tuple&lt;3&gt;.Create()static" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Tuples.Tuple&lt;3&gt;.Destroy()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Tuples.Tuple&lt;3&gt;.Create(T1,T2,T3)" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Tuples.Tuple&lt;3&gt;.Value1" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Tuples.Tuple&lt;3&gt;.Value2" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Tuples.Tuple&lt;3&gt;.Value3" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Tuples.Tuple&lt;4&gt;">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Tuples.Tuple&lt;4&gt;.FValue1" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Tuples.Tuple&lt;4&gt;.FValue2" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Tuples.Tuple&lt;4&gt;.FValue3" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Tuples.Tuple&lt;4&gt;.FValue4" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Tuples.Tuple&lt;4&gt;.Create()static" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Tuples.Tuple&lt;4&gt;.Destroy()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Tuples.Tuple&lt;4&gt;.Create(T1,T2,T3,T4)" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Tuples.Tuple&lt;4&gt;.Value1" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Tuples.Tuple&lt;4&gt;.Value2" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Tuples.Tuple&lt;4&gt;.Value3" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Tuples.Tuple&lt;4&gt;.Value4" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Tuples.Tuple&lt;5&gt;">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Tuples.Tuple&lt;5&gt;.FValue1" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Tuples.Tuple&lt;5&gt;.FValue2" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Tuples.Tuple&lt;5&gt;.FValue3" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Tuples.Tuple&lt;5&gt;.FValue4" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Tuples.Tuple&lt;5&gt;.FValue5" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Tuples.Tuple&lt;5&gt;.Create()static" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Tuples.Tuple&lt;5&gt;.Destroy()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Tuples.Tuple&lt;5&gt;.Create(T1,T2,T3,T4,T5)" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Tuples.Tuple&lt;5&gt;.Value1" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Tuples.Tuple&lt;5&gt;.Value2" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Tuples.Tuple&lt;5&gt;.Value3" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Tuples.Tuple&lt;5&gt;.Value4" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Tuples.Tuple&lt;5&gt;.Value5" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Tuples.Tuple&lt;6&gt;">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Tuples.Tuple&lt;6&gt;.FValue1" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Tuples.Tuple&lt;6&gt;.FValue2" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Tuples.Tuple&lt;6&gt;.FValue3" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Tuples.Tuple&lt;6&gt;.FValue4" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Tuples.Tuple&lt;6&gt;.FValue5" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Tuples.Tuple&lt;6&gt;.FValue6" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Tuples.Tuple&lt;6&gt;.Create()static" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Tuples.Tuple&lt;6&gt;.Destroy()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Tuples.Tuple&lt;6&gt;.Create(T1,T2,T3,T4,T5,T6)" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Tuples.Tuple&lt;6&gt;.Value1" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Tuples.Tuple&lt;6&gt;.Value2" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Tuples.Tuple&lt;6&gt;.Value3" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Tuples.Tuple&lt;6&gt;.Value4" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Tuples.Tuple&lt;6&gt;.Value5" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Tuples.Tuple&lt;6&gt;.Value6" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Tuples.Tuple&lt;7&gt;">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Tuples.Tuple&lt;7&gt;.FValue1" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Tuples.Tuple&lt;7&gt;.FValue2" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Tuples.Tuple&lt;7&gt;.FValue3" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Tuples.Tuple&lt;7&gt;.FValue4" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Tuples.Tuple&lt;7&gt;.FValue5" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Tuples.Tuple&lt;7&gt;.FValue6" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Tuples.Tuple&lt;7&gt;.FValue7" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Tuples.Tuple&lt;7&gt;.Create()static" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Tuples.Tuple&lt;7&gt;.Destroy()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Tuples.Tuple&lt;7&gt;.Create(T1,T2,T3,T4,T5,T6,T7)" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Tuples.Tuple&lt;7&gt;.Value1" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Tuples.Tuple&lt;7&gt;.Value2" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Tuples.Tuple&lt;7&gt;.Value3" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Tuples.Tuple&lt;7&gt;.Value4" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Tuples.Tuple&lt;7&gt;.Value5" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Tuples.Tuple&lt;7&gt;.Value6" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Tuples.Tuple&lt;7&gt;.Value7" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Tuples.Tuple">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Tuples.Tuple.Create&lt;1&gt;(T1)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Tuples.Tuple.Create&lt;2&gt;(T1,T2)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Tuples.Tuple.Create&lt;3&gt;(T1,T2,T3)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Tuples.Tuple.Create&lt;4&gt;(T1,T2,T3,T4)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Tuples.Tuple.Create&lt;5&gt;(T1,T2,T3,T4,T5)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Tuples.Tuple.Create&lt;6&gt;(T1,T2,T3,T4,T5,T6)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Tuples.Tuple.Create&lt;7&gt;(T1,T2,T3,T4,T5,T6,T7)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Tuples.Tuple.GetType&lt;1&gt;(DeHL.Types.IType&lt;T1&gt;)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Tuples.Tuple.GetType&lt;2&gt;(DeHL.Types.IType&lt;T1&gt;,DeHL.Types.IType&lt;T2&gt;)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Tuples.Tuple.GetType&lt;3&gt;(DeHL.Types.IType&lt;T1&gt;,DeHL.Types.IType&lt;T2&gt;,DeHL.Types.IType&lt;T3&gt;)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Tuples.Tuple.GetType&lt;4&gt;(DeHL.Types.IType&lt;T1&gt;,DeHL.Types.IType&lt;T2&gt;,DeHL.Types.IType&lt;T3&gt;,DeHL.Types.IType&lt;T4&gt;)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Tuples.Tuple.GetType&lt;5&gt;(DeHL.Types.IType&lt;T1&gt;,DeHL.Types.IType&lt;T2&gt;,DeHL.Types.IType&lt;T3&gt;,DeHL.Types.IType&lt;T4&gt;,DeHL.Types.IType&lt;T5&gt;)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Tuples.Tuple.GetType&lt;6&gt;(DeHL.Types.IType&lt;T1&gt;,DeHL.Types.IType&lt;T2&gt;,DeHL.Types.IType&lt;T3&gt;,DeHL.Types.IType&lt;T4&gt;,DeHL.Types.IType&lt;T5&gt;,DeHL.Types.IType&lt;T6&gt;)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Tuples.Tuple.GetType&lt;7&gt;(DeHL.Types.IType&lt;T1&gt;,DeHL.Types.IType&lt;T2&gt;,DeHL.Types.IType&lt;T3&gt;,DeHL.Types.IType&lt;T4&gt;,DeHL.Types.IType&lt;T5&gt;,DeHL.Types.IType&lt;T6&gt;,DeHL.Types.IType&lt;T7&gt;)" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Tuples.Tuple.T1TupleType&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Tuples.Tuple.T2TupleType&lt;2&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Tuples.Tuple.T3TupleType&lt;3&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Tuples.Tuple.T4TupleType&lt;4&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Tuples.Tuple.T5TupleType&lt;5&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Tuples.Tuple.T6TupleType&lt;6&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Tuples.Tuple.T7TupleType&lt;7&gt;" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Tuples.KVPair&lt;2&gt;">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Tuples.KVPair&lt;2&gt;.FKey" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Tuples.KVPair&lt;2&gt;.FValue" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Tuples.KVPair&lt;2&gt;.Create()static" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Tuples.KVPair&lt;2&gt;.Destroy()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Tuples.KVPair&lt;2&gt;.Create(TKey,TValue)" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Tuples.KVPair&lt;2&gt;.Key" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Tuples.KVPair&lt;2&gt;.Value" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Tuples.KVPair">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Tuples.KVPair.Create&lt;2&gt;(TKey,TValue)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Tuples.KVPair.GetType&lt;2&gt;(DeHL.Types.IType&lt;TKey&gt;,DeHL.Types.IType&lt;TValue&gt;)" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Tuples.KVPair.TKVPairType&lt;2&gt;" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Tuples.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+  </view>
+</nodeSet>

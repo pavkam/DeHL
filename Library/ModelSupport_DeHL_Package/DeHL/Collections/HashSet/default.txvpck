@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="xt0cp4midkr_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.HashSet.THashSet&lt;1&gt;">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Collections.HashSet.THashSet&lt;1&gt;.FBucketArray" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Collections.HashSet.THashSet&lt;1&gt;.FEntryArray" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Collections.HashSet.THashSet&lt;1&gt;.FCount" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Collections.HashSet.THashSet&lt;1&gt;.FFreeCount" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Collections.HashSet.THashSet&lt;1&gt;.FFreeList" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Collections.HashSet.THashSet&lt;1&gt;.FVer" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.HashSet.THashSet&lt;1&gt;.InitializeInternals(System.NativeUInt)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.HashSet.THashSet&lt;1&gt;.Insert(T,System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.HashSet.THashSet&lt;1&gt;.FindEntry(T)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.HashSet.THashSet&lt;1&gt;.Resize()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.HashSet.THashSet&lt;1&gt;.Hash(T)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.HashSet.THashSet&lt;1&gt;.StartSerializing(DeHL.Serialization.TSerializationData)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.HashSet.THashSet&lt;1&gt;.StartDeserializing(DeHL.Serialization.TDeserializationData)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.HashSet.THashSet&lt;1&gt;.DeserializeElement(T)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.HashSet.THashSet&lt;1&gt;.GetCount()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.HashSet.THashSet&lt;1&gt;.Create()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.HashSet.THashSet&lt;1&gt;.Create(System.NativeUInt)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.HashSet.THashSet&lt;1&gt;.Create(DeHL.Base.IEnumerable`1)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.HashSet.THashSet&lt;1&gt;.Create(T[])" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.HashSet.THashSet&lt;1&gt;.Create(DeHL.Arrays.TDynamicArray`1)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.HashSet.THashSet&lt;1&gt;.Create(DeHL.Arrays.TFixedArray`1)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.HashSet.THashSet&lt;1&gt;.Create(DeHL.Types.IType&lt;1&gt;)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.HashSet.THashSet&lt;1&gt;.Create(DeHL.Types.IType&lt;1&gt;,System.NativeUInt)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.HashSet.THashSet&lt;1&gt;.Create(DeHL.Types.IType&lt;1&gt;,DeHL.Base.IEnumerable`1)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.HashSet.THashSet&lt;1&gt;.Create(DeHL.Types.IType&lt;1&gt;,T[])" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.HashSet.THashSet&lt;1&gt;.Create(DeHL.Types.IType&lt;1&gt;,DeHL.Arrays.TDynamicArray`1)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.HashSet.THashSet&lt;1&gt;.Create(DeHL.Types.IType&lt;1&gt;,DeHL.Arrays.TFixedArray`1)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.HashSet.THashSet&lt;1&gt;.Destroy()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.HashSet.THashSet&lt;1&gt;.Clear()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.HashSet.THashSet&lt;1&gt;.Add(T)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.HashSet.THashSet&lt;1&gt;.Remove(T)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.HashSet.THashSet&lt;1&gt;.Contains(T)" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Collections.HashSet.THashSet&lt;1&gt;.Count" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.HashSet.THashSet&lt;1&gt;.GetEnumerator()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.HashSet.THashSet&lt;1&gt;.CopyTo(ref@T[])" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.HashSet.THashSet&lt;1&gt;.CopyTo(ref@T[],System.NativeUInt)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.HashSet.THashSet&lt;1&gt;.Empty()" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.HashSet.THashSet&lt;1&gt;.TEnumerator" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.HashSet.THashSet&lt;1&gt;.TEntry" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.HashSet.TObjectHashSet&lt;1&gt;">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:l_gnt:src:DeHL_Package:DeHL.Collections.HashSet.TObjectHashSet&lt;1&gt;:DeHL.Collections.HashSet.THashSet&lt;1&gt;" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Collections.HashSet.TObjectHashSet&lt;1&gt;.FWrapperType" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.HashSet.TObjectHashSet&lt;1&gt;.GetOwnsObjects()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.HashSet.TObjectHashSet&lt;1&gt;.SetOwnsObjects(System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.HashSet.TObjectHashSet&lt;1&gt;.InstallType(DeHL.Types.IType&lt;1&gt;)" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Collections.HashSet.TObjectHashSet&lt;1&gt;.OwnsObjects" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.HashSet.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Collections.HashSet.@unitclass.DefaultArrayLength" />
+    </reference>
+  </view>
+</nodeSet>

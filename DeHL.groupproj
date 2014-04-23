@@ -1,0 +1,48 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{BED3A554-CFFC-4F00-8D52-9F00F90A2C98}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="Testing\DeHL_Testing.dproj">
+				<Dependencies>Library\DeHL_Package.dproj</Dependencies>
+			</Projects>
+			<Projects Include="Library\DeHL_Package.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target DependsOnTargets="DeHL_Package" Name="DeHL_Testing">
+			<MSBuild Projects="Testing\DeHL_Testing.dproj"/>
+		</Target>
+		<Target DependsOnTargets="DeHL_Package:Clean" Name="DeHL_Testing:Clean">
+			<MSBuild Targets="Clean" Projects="Testing\DeHL_Testing.dproj"/>
+		</Target>
+		<Target DependsOnTargets="DeHL_Package:Make" Name="DeHL_Testing:Make">
+			<MSBuild Targets="Make" Projects="Testing\DeHL_Testing.dproj"/>
+		</Target>
+		<Target Name="DeHL_Package">
+			<MSBuild Projects="Library\DeHL_Package.dproj"/>
+		</Target>
+		<Target Name="DeHL_Package:Clean">
+			<MSBuild Targets="Clean" Projects="Library\DeHL_Package.dproj"/>
+		</Target>
+		<Target Name="DeHL_Package:Make">
+			<MSBuild Targets="Make" Projects="Library\DeHL_Package.dproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="DeHL_Testing;DeHL_Package"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="DeHL_Testing:Clean;DeHL_Package:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="DeHL_Testing:Make;DeHL_Package:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="a56zbmwbtqh_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Serialization.Binary.TStreamPointType">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Binary.TStreamPointType.sptByte" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Binary.TStreamPointType.sptWord" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Binary.TStreamPointType.sptCardinal" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Binary.TStreamPointType.sptUInt64" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Binary.TStreamPointType.sptShortInt" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Binary.TStreamPointType.sptSmallInt" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Binary.TStreamPointType.sptInteger" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Binary.TStreamPointType.sptInt64" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Binary.TStreamPointType.sptSingle" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Binary.TStreamPointType.sptDouble" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Binary.TStreamPointType.sptComp" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Binary.TStreamPointType.sptExtended" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Binary.TStreamPointType.sptCurrency" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Binary.TStreamPointType.sptAnsiChar" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Binary.TStreamPointType.sptWideChar" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Binary.TStreamPointType.sptAnsiString" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Binary.TStreamPointType.sptUnicodeString" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Binary.TStreamPointType.sptBoolean" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Binary.TStreamPointType.sptDateTime" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Binary.TStreamPointType.sptBinary" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Binary.TStreamPointType.sptIdentifier" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Binary.TStreamPointType.sptReference" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Binary.TStreamPointType.sptClass" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Binary.TStreamPointType.sptRecord" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Serialization.Binary.TStreamPointType.sptArray" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Serialization.Binary.TBinarySerializer&lt;1&gt;">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Binary.TBinarySerializer&lt;1&gt;.CreateContext()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Binary.TBinarySerializer&lt;1&gt;.PrepareForSerialization(Classes.TStream)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Serialization.Binary.TBinarySerializer&lt;1&gt;.PrepareForDeserialization(Classes.TStream)" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Serialization.Binary.TBinarySerializer&lt;1&gt;.TBinarySerializationContext" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Serialization.Binary.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Serialization.Binary.TStreamPointTypes">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+  </view>
+</nodeSet>

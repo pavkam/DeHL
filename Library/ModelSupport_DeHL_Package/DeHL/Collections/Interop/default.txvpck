@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="wagxtqcu27l_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Interop.TVCLCollection">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Interop.TVCLCollection.Wrap&lt;1&gt;(Generics.Collections.TEnumerable`1,System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Interop.TVCLCollection.Wrap&lt;2&gt;(Generics.Collections.TEnumerable`1,System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Interop.TVCLCollection.Wrap(Classes.TList,System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Interop.TVCLCollection.Wrap(Classes.TStrings,System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Interop.TVCLCollection.Wrap(WideStrings.TWideStrings,System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Interop.TVCLCollection.Wrap(Classes.TInterfaceList,System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Interop.TVCLCollection.Wrap(Classes.TCollection,System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Interop.TVCLCollection.Wrap(Classes.TComponent,System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Interop.TVCLCollection.Wrap(Contnrs.TObjectList,System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Interop.TVCLCollection.Wrap(Contnrs.TComponentList,System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Interop.TVCLCollection.Wrap(Contnrs.TClassList,System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Interop.TVCLCollection.From&lt;1&gt;(DeHL.Collections.Base.TCollection&lt;1&gt;)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Interop.TVCLCollection.From&lt;2&gt;(DeHL.Collections.Base.TCollection&lt;DeHL.Tuples.KVPair&lt;TKey,TValue&gt;&gt;)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Interop.TVCLCollection.From&lt;1&gt;(DeHL.Collections.Base.IEnexCollection&lt;1&gt;)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Interop.TVCLCollection.From&lt;2&gt;(DeHL.Collections.Base.IEnexAssociativeCollection&lt;2&gt;)" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Interop.TVCLCollection.TEnexVCLWrapCollection&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Interop.TVCLCollection.TEnexAssociativeVCLWrapCollection&lt;2&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Interop.TVCLCollection.TEnexOldVCLWrapCollection&lt;3&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Interop.TVCLCollection.TVCLEnexWrapCollection&lt;1&gt;" />
+      <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Interop.TVCLCollection.TVCLAssociativeEnexWrapCollection&lt;2&gt;" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Interop.TStringList&lt;1&gt;">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Collections.Interop.TStringList&lt;1&gt;.FType" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Collections.Interop.TStringList&lt;1&gt;.FSuppType" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Interop.TStringList&lt;1&gt;.GetBoxedValue(System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Interop.TStringList&lt;1&gt;.SetBoxedValue(System.Integer,T)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Interop.TStringList&lt;1&gt;.PutObject(System.Integer,System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Interop.TStringList&lt;1&gt;.Create()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Interop.TStringList&lt;1&gt;.Create(DeHL.Types.IType&lt;1&gt;,System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Interop.TStringList&lt;1&gt;.Create(System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Interop.TStringList&lt;1&gt;.AddObject(System.string,System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Interop.TStringList&lt;1&gt;.AddObject(System.string,T)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Interop.TStringList&lt;1&gt;.InsertObject(System.Integer,System.string,System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Interop.TStringList&lt;1&gt;.InsertObject(System.Integer,System.string,T)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Interop.TStringList&lt;1&gt;.IndexOfObject(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Interop.TStringList&lt;1&gt;.IndexOfObject(T)" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Collections.Interop.TStringList&lt;1&gt;.Objects[System.Integer]" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Interop.TWideStringList&lt;1&gt;">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Collections.Interop.TWideStringList&lt;1&gt;.FType" />
+      <reference referencedUin="delphi:e_field:src:DeHL_Package:DeHL.Collections.Interop.TWideStringList&lt;1&gt;.FSuppType" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Interop.TWideStringList&lt;1&gt;.GetBoxedValue(System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Interop.TWideStringList&lt;1&gt;.SetBoxedValue(System.Integer,T)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Interop.TWideStringList&lt;1&gt;.PutObject(System.Integer,System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Interop.TWideStringList&lt;1&gt;.Create()" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Interop.TWideStringList&lt;1&gt;.Create(DeHL.Types.IType&lt;1&gt;,System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Interop.TWideStringList&lt;1&gt;.Create(System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Interop.TWideStringList&lt;1&gt;.AddObject(System.WideString,System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Interop.TWideStringList&lt;1&gt;.AddObject(System.WideString,T)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Interop.TWideStringList&lt;1&gt;.InsertObject(System.Integer,System.WideString,System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Interop.TWideStringList&lt;1&gt;.InsertObject(System.Integer,System.WideString,T)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Interop.TWideStringList&lt;1&gt;.IndexOfObject(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:DeHL_Package:DeHL.Collections.Interop.TWideStringList&lt;1&gt;.IndexOfObject(T)" />
+      <reference referencedUin="delphi:e_property:src:DeHL_Package:DeHL.Collections.Interop.TWideStringList&lt;1&gt;.Objects[System.Integer]" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:DeHL_Package:DeHL.Collections.Interop.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+  </view>
+</nodeSet>
