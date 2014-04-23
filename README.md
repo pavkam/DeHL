@@ -1,7 +1,6 @@
 DeHL
 ====
-
-Delphi Helper Library (Defunct)
+DeHL (Delphi Helper Library) is *discontinued* starting with 09.01.2012. You can reuse parts of this project for whatever particular needs you have. The source code is BSD licensed.
 
 The most important features of `DeHL` for now are:
   * A set of generic collections classes (*TList*, *TDictionary*, *THashSet*, *TMultiMap*, *TPriorityQueue* and etc).
@@ -21,5 +20,3 @@ The most important features of `DeHL` for now are:
   * *... and more!*
 
 All classes and functions have unit tests. We're trying to maintain a large set of tests to find and fix early all possible bugs.
-You can find more information about the library here: [FeatureList]
-For more information about the design goals see [Introduction]
