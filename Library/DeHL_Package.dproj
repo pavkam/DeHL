@@ -117,10 +117,6 @@
 			<DCCReference Include="src\Collections\DeHL.Collections.Heap.pas"/>
 			<DCCReference Include="src\Extensions\DeHL.DateTime.pas"/>
 			<DCCReference Include="src\Math\DeHL.Math.Algorithms.pas"/>
-			<None Include="ModelSupport_DeHL_Package\default.txaPackage"/>
-			<None Include="ModelSupport_DeHL_Package\default.txvpck"/>
-			<None Include="ModelSupport_DeHL_Package\DeHL\default.txvpck"/>
-			<None Include="ModelSupport_DeHL_Package\DeHL\Types\default.txvpck"/>
 			<BuildConfiguration Include="Debug">
 				<Key>Cfg_2</Key>
 				<CfgParent>Base</CfgParent>
@@ -179,7 +175,7 @@
 						<VersionControl Name="VersionControlID"/>
 					</VersionControl>
 				</Delphi.Personality>
-				<ModelSupport>True</ModelSupport>
+				<ModelSupport>False</ModelSupport>
 				<Platforms>
 					<Platform value="Win32">True</Platform>
 				</Platforms>
