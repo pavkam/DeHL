@@ -18,9 +18,11 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 # DEALINGS IN THE SOFTWARE.
 
+# ------------------------------------------------------------------------------
 # This file is a modification of Delphi.gitignore (commit
 # fe00bd78b8e0b86cd9124c96588ee9f056801042) from the github/gitignore project on
 # GitHub.
+# ------------------------------------------------------------------------------
 
 # Uncomment these types if you want even more clean repository. But be careful.
 # It can make harm to an existing project source. Read explanations below.
