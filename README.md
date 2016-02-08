@@ -38,6 +38,10 @@ The code appears to be based on the *DeHL* v0.8.4 release. It is not known wheth
 
 It is not my intention to make any significant changes to the library, but it may get tweaked to meet my needs.
 
+## Documentation
+
+The source code is fully documented using XMLDoc. In the Delphi IDE hover the mouse over an identifier to get a full description. 
+
 ## License
 
 Licensed under the BSD License -- see [LICENSE.txt](LICENSE.txt). The original library is copyright (c) 2008-2010, Ciobanu Alexandru.
