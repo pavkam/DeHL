@@ -1,8 +1,10 @@
-DeHL
-====
-DeHL (Delphi Helper Library) is *discontinued* starting with 09.01.2012. You can reuse parts of this project for whatever particular needs you have. The source code is BSD licensed.
+# DeHL
 
-The most important features of `DeHL` for now are:
+> This is a fork that attempts to keep alive the  **discontinued** *Delphi Helper Library* by Ciobanu Alexandru. See below for further information about the fork.
+
+## Overview of the library
+
+The most important features of `DeHL` are:
   * A set of generic collections classes (*TList*, *TDictionary*, *THashSet*, *TMultiMap*, *TPriorityQueue* and etc).
   * _Linq_-like extensions (called *Enex*) for collections which allow writing queries on collection classes.
   * Date/Time functionality all combined in a few structures (somehow equivalent to .NET's *DateTime* structure)
@@ -20,3 +22,28 @@ The most important features of `DeHL` for now are:
   * *... and more!*
 
 All classes and functions have unit tests. We're trying to maintain a large set of tests to find and fix early all possible bugs.
+
+You can find more information about the library here:
+
+* [Introduction to DeHL](Docs/Introduction.md)
+* [Feature List](Docs/FeatureList.md)
+
+## About this fork
+
+This is a fork of the **discontinued** [*Delphi Helper Library*](https://github.com/pavkam/DeHL) by [Ciobanu Alexandru](https://github.com/pavkam).
+
+DeHL was *discontinued* on 09.01.2012.
+
+It is not my intention to make any significant changes to the library, but it may get tweaked to meet my needs.
+
+## License
+
+Licensed under the BSD License -- see [LICENSE.txt](LICENSE.txt). The original library is copyright (c) 2008-2010, Ciobanu Alexandru.
+
+## Bugs
+
+Please notify any bugs using the Issue Tracker.
+
+**Note:** This is not a top priority project for me, so I may not fix all bugs. So, if you can, fix the bug yourself and submit your changes. Pull requests are the way to go!
+
+> Using the Wayback Machine a list of [outstanding issues](http://web.archive.org/web/20121026095237/http://code.google.com/p/delphilhlplib/issues/list) from the original project has been found, but unfortunately the issue detail pages are not archived, so there's not much to go on.
