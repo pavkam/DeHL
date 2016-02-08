@@ -34,6 +34,8 @@ This is a fork of the **discontinued** [*Delphi Helper Library*](https://github.
 
 DeHL was *discontinued* on 09.01.2012.
 
+The code appears to be based on the *DeHL* v0.8.4 release. It is not known whether any commits were made to the code we have here after the release of v0.8.4. (No history was included in the original GitHub project).
+
 It is not my intention to make any significant changes to the library, but it may get tweaked to meet my needs.
 
 ## License
