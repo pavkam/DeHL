@@ -206,7 +206,7 @@ begin
   __Marker := nil;
 
   { Unregister the custom type }
-  if not TType<Nullable<T>>.IsRegistered then
+  if TType<Nullable<T>>.IsRegistered then
     TType<Nullable<T>>.Unregister();
 end;
 
